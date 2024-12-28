@@ -1,0 +1,172 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks'
+
+<Meta title="Colors/Theme Colors" />
+
+<ColorPalette title="Background and Foreground">
+    <ColorItem
+        title="Background"
+        subtitle="className='bg-background'"
+        colors={{ background: 'hsl(var(--background))' }}
+    />
+    <ColorItem
+        title="Foreground"
+        subtitle="className='text-foreground'"
+        colors={{ foreground: 'hsl(var(--foreground))' }}
+    />
+</ColorPalette>
+
+<ColorPalette title="Primary and Secondary">
+    {/* Primary */}
+    <ColorItem
+        title="Primary"
+        subtitle="className='text-primary bg-primary'"
+        colors={{
+            primary: 'hsl(var(--primary))',
+            'primary-foreground': 'hsl(var(--primary-foreground))',
+        }}
+    />
+
+    {/* Secondary */}
+    <ColorItem
+        title="Secondary"
+        subtitle="className='text-secondary bg-secondary'"
+        colors={{
+            secondary: 'hsl(var(--secondary))',
+            'secondary-foreground': 'hsl(var(--secondary-foreground))',
+        }}
+    />
+
+</ColorPalette>
+
+<ColorPalette title="Muted and Destructive">
+    {/* Muted */}
+    <ColorItem
+        title="Muted"
+        subtitle="className='text-muted-foreground bg-muted'"
+        colors={{
+            muted: 'hsl(var(--muted))',
+            'muted-foreground': 'hsl(var(--muted-foreground))',
+        }}
+    />
+
+    {/* Destructive */}
+    <ColorItem
+        title="Destructive"
+        subtitle="className='text-destructive-foreground bg-destructive'"
+        colors={{
+            destructive: 'hsl(var(--destructive))',
+            'destructive-foreground': 'hsl(var(--destructive-foreground))',
+        }}
+    />
+
+</ColorPalette>
+
+<ColorPalette title="Utility Colors">
+    {/* Border, Input, Ring */}
+    <ColorItem
+        title="Border"
+        subtitle="className='border-border'"
+        colors={{ border: 'hsl(var(--border))' }}
+    />
+    <ColorItem
+        title="Input"
+        subtitle="className='bg-input'"
+        colors={{ input: 'hsl(var(--input))' }}
+    />
+    <ColorItem
+        title="Ring"
+        subtitle="className='ring-offset-background'"
+        colors={{ ring: 'hsl(var(--ring))' }}
+    />
+</ColorPalette>
+
+<ColorPalette title="Alert Colors">
+    {/* Success */}
+    <ColorItem
+        title="Success"
+        subtitle="className='text-success-foreground bg-success'"
+        colors={{
+            success: 'hsl(var(--success))',
+            'success-foreground': 'hsl(var(--success-foreground))',
+        }}
+    />
+
+    {/* Failure */}
+    <ColorItem
+        title="Failure"
+        subtitle="className='text-failure-foreground bg-failure'"
+        colors={{
+            failure: 'hsl(var(--failure))',
+            'failure-foreground': 'hsl(var(--failure-foreground))',
+        }}
+    />
+
+    {/* Warning */}
+    <ColorItem
+        title="Warning"
+        subtitle="className='text-warning-foreground bg-warning'"
+        colors={{
+            warning: 'hsl(var(--warning))',
+            'warning-foreground': 'hsl(var(--warning-foreground))',
+        }}
+    />
+
+    {/* Info */}
+    <ColorItem
+        title="Info"
+        subtitle="className='text-info-foreground bg-info'"
+        colors={{
+            info: 'hsl(var(--info))',
+            'info-foreground': 'hsl(var(--info-foreground))',
+        }}
+    />
+
+    {/* Result */}
+    <ColorItem
+        title="Result"
+        subtitle="className='text-result-foreground bg-result'"
+        colors={{
+            result: 'hsl(var(--result))',
+            'result-foreground': 'hsl(var(--result-foreground))',
+        }}
+    />
+
+    {/* Action */}
+    <ColorItem
+        title="Action"
+        subtitle="className='text-action-foreground bg-action'"
+        colors={{
+            action: 'hsl(var(--action))',
+            'action-foreground': 'hsl(var(--action-foreground))',
+        }}
+    />
+
+    {/* Tertiary */}
+    <ColorItem
+        title="Tertiary"
+        subtitle="className='text-tertiary-foreground bg-tertiary'"
+        colors={{
+            tertiary: 'hsl(var(--tertiary))',
+            'tertiary-foreground': 'hsl(var(--tertiary-foreground))',
+        }}
+    />
+
+    {/* Status */}
+    <ColorItem
+        title="Status"
+        subtitle="className='text-status-foreground bg-status'"
+        colors={{
+            status: 'hsl(var(--status))',
+            'status-foreground': 'hsl(var(--status-foreground))',
+        }}
+    />
+
+</ColorPalette>
+
+<ColorPalette title="Chart Colors">
+    <ColorItem title="Chart 1" colors={{ 'chart-1': 'hsl(var(--chart-1))' }} />
+    <ColorItem title="Chart 2" colors={{ 'chart-2': 'hsl(var(--chart-2))' }} />
+    <ColorItem title="Chart 3" colors={{ 'chart-3': 'hsl(var(--chart-3))' }} />
+    <ColorItem title="Chart 4" colors={{ 'chart-4': 'hsl(var(--chart-4))' }} />
+    <ColorItem title="Chart 5" colors={{ 'chart-5': 'hsl(var(--chart-5))' }} />
+</ColorPalette>

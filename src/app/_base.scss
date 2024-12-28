@@ -1,0 +1,16 @@
+$direction-rtl:rtl;
+@mixin text-shadow($x: 0px, $y: 0px, $blur: 0px, $color: rgba(0, 0, 0, 0.9)) {
+    text-shadow: $x $y $blur $color;
+}
+@mixin direction-rtl{
+    direction: $direction-rtl;
+}
+.text-shadow-sm {
+    @include text-shadow(1px, 1px, 2px);
+}
+.text-shadow-md {
+    @include text-shadow(2px, 2px, 4px);
+}
+.text-shadow-lg {
+    @include text-shadow(3px, 3px, 6px);
+}

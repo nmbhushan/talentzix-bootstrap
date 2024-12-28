@@ -1,0 +1,12 @@
+{
+  "Layout": {
+    "metaData": {
+      "title": "Next.js App",
+      "description": "A weather app built with Next.js and next-intl"
+    }
+  },
+  "HomePage": {
+    "title": "Easiest way to Find your Dream Home.",
+    "banner_desc": "This is where you find a dream home for you a various types, all over the world at affordable price."
+  }
+}
