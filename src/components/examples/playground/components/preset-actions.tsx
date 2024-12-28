@@ -30,7 +30,7 @@ import {
 } from '../../../ui/dropdown-menu'
 import { Label } from '../../../ui/label'
 import { Switch } from '../../../ui/switch'
-import { toast } from '../../../ui/use-toast'
+import { toast } from '@/hooks/use-toast'
 
 export function PresetActions() {
     const [open, setIsOpen] = React.useState(false)

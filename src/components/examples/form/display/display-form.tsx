@@ -15,7 +15,7 @@ import {
     FormLabel,
     FormMessage,
 } from '../../../ui/form'
-import { toast } from '../../../ui/use-toast'
+import { toast } from '@/hooks/use-toast'
 
 const items = [
     {

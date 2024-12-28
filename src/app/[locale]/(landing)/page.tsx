@@ -1,3 +1,4 @@
+'use client'
 import { About } from "@/components/theme-ui/About";
 import { Cta } from "@/components/theme-ui/Cta";
 import { FAQ } from "@/components/theme-ui/FAQ";

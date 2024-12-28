@@ -97,7 +97,7 @@ const ContactUsForm = () => {
                                 )}
                             />
                         </div>
-                        <div className="flex flex-col w-full">
+                        {/* <div className="flex flex-col w-full">
                             <FormField
                                 control={form.control}
                                 name="last_name"
@@ -109,11 +109,10 @@ const ContactUsForm = () => {
                                         <FormControl>
                                             <Input placeholder="Last Name" {...field} />
                                         </FormControl>
-                                        {/* <FormMessage className="text-sm" /> */}
                                     </FormItem>
                                 )}
                             />
-                        </div>
+                        </div> */}
                     </div>
                     <div className=" flex items-center justify-center gap-6 ">
                         <div className="flex flex-col w-full">

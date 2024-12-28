@@ -17,7 +17,7 @@ import {
     FormMessage,
 } from '../../ui/form'
 import { RadioGroup, RadioGroupItem } from '../../ui/radio-group'
-import { toast } from '../../ui/use-toast'
+import { toast } from '@/hooks/use-toast'
 
 const appearanceFormSchema = z.object({
     theme: z.enum(['light', 'dark'], {

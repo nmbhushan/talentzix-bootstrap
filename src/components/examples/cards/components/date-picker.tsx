@@ -1,4 +1,4 @@
-import { DatePickerWithRange } from '../../../ui/demo/date-picker-with-ranger-demo'
+// import { DatePickerWithRange } from '../../../ui/demo/date-picker-with-ranger-demo'
 import { Card, CardContent } from '../../../ui/card'
 import { Label } from '../../../ui/label'
 
@@ -10,7 +10,7 @@ export function DemoDatePicker() {
                     <Label htmlFor="date" className="shrink-0">
                         Pick a date
                     </Label>
-                    <DatePickerWithRange className="[&>button]:w-[260px]" />
+                    {/* <DatePickerWithRange className="[&>button]:w-[260px]" /> */}
                 </div>
             </CardContent>
         </Card>

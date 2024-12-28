@@ -27,7 +27,7 @@ import {
 } from '../../../ui/form'
 import { Input } from '../../../ui/input'
 import { Popover, PopoverContent, PopoverTrigger } from '../../../ui/popover'
-import { toast } from '../../../ui/use-toast'
+import { toast } from '@/hooks/use-toast'
 
 const languages = [
     { label: 'English', value: 'en' },

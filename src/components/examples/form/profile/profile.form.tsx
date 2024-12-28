@@ -25,7 +25,7 @@ import {
     SelectValue,
 } from '../../../ui/select'
 import { Textarea } from '../../../ui/textarea'
-import { toast } from '../../../ui/use-toast'
+import { toast } from '@/hooks/use-toast'
 
 const profileFormSchema = z.object({
     username: z

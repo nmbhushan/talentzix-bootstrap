@@ -18,7 +18,7 @@ import {
 } from '../../../ui/form'
 import { RadioGroup, RadioGroupItem } from '../../../ui/radio-group'
 import { Switch } from '../../../ui/switch'
-import { toast } from '../../../ui/use-toast'
+import { toast } from '@/hooks/use-toast'
 
 const notificationsFormSchema = z.object({
     type: z.enum(['all', 'mentions', 'none'], {
