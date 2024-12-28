@@ -1,3 +1,4 @@
+'use client'
 import { LogoIcon } from "./Icons";
 
 export const Footer = () => {

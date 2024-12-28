@@ -58,7 +58,7 @@ import "./App.css";
 export default function HomePage() {
     return (
       <>
-        <Navbar />
+        
         <Hero />
         <Sponsors />
         <About />
@@ -71,8 +71,7 @@ export default function HomePage() {
         <Pricing />
         <Newsletter />
         <FAQ />
-        <Footer />
-        <ScrollToTop />
+
       </>
     );
   }
