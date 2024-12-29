@@ -1,4 +1,5 @@
 'use client'
+
 import { About } from "@/components/theme-ui/About";
 import { Cta } from "@/components/theme-ui/Cta";
 import { FAQ } from "@/components/theme-ui/FAQ";
@@ -58,11 +59,10 @@ import "./App.css";
 export default function HomePage() {
     return (
       <>
-        
         <Hero />
         <Sponsors />
-        <About />
         <HowItWorks />
+        <About />
         <Features />
         <Services />
         <Cta />

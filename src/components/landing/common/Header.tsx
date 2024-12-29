@@ -19,13 +19,6 @@ import {
 const Header = () => {
     const items = [
         "Al bateen garden",
-        "Nation tower",
-        "Lulut AL raha",
-        "Lulut AL raha",
-        "Al bateen garden",
-        "Nation tower",
-        "Lulut AL raha",
-        "Lulut AL raha",
     ];
     const pathname = usePathname();
     return (
@@ -49,49 +42,6 @@ const Header = () => {
                         <div className="grid grid-cols-12 gap-4 items-center">
                             <div className="col-span-12 md:col-span-5">
                                 <div className="hidden lg:flex flex-row gap-3">
-                                    {/* <DropdownMenu>
-                                        <DropdownMenuTrigger className="me-3">
-                                            {" "}
-                                            <p className="outline-none cursor-pointer capitalize font-medium text-primary hover:text-primary-foregroundHoverText focus:text-primary-foregroundHoverText flex flex-row items-center">Area Guide <IoChevronDownSharp className="ms-1" /> </p>
-                                        </DropdownMenuTrigger>
-                                        <DropdownMenuContent className="grid grid-cols-4 mt-5 p-2" align="start">
-                                            {items.map((item, index: number) => (
-                                                <Link href={""} className={`px-2 ${index % 4 === 3 ? '' : 'border-e-[1px]'}`} key={index}><DropdownMenuItem className="p-2 text-[13px]">Al bateen garden</DropdownMenuItem></Link>
-                                            ))}
-                                        </DropdownMenuContent>
-                                    </DropdownMenu> */}
-                                    {/* <DropdownMenu>
-                                        <DropdownMenuTrigger className="me-3 outline-none">
-                                            {" "}
-                                            <p className="outline-none cursor-pointer capitalize font-medium text-primary hover:text-primary-foregroundHoverText flex flex-row items-center">Upcoming Properties <IoChevronDownSharp className="ms-1"/> </p>
-                                        </DropdownMenuTrigger>
-                                        <DropdownMenuContent>
-                                            <Link href={"/media-center/press-release"}>
-                                                <DropdownMenuItem> Press release </DropdownMenuItem>
-                                            </Link>
-                                            <Link href={"/media-center/picture-gallery"}>
-                                                <DropdownMenuItem> Picture Gallery</DropdownMenuItem>
-                                            </Link>
-                                            <Link href={"/media-center/video-gallery"}>
-                                                <DropdownMenuItem> Video Gallery </DropdownMenuItem>
-                                            </Link>
-                                            <Link href={"/media-center/media-query"}>
-                                                <DropdownMenuItem> Media query </DropdownMenuItem>
-                                            </Link>
-                                        </DropdownMenuContent>
-                                    </DropdownMenu> */}
-                                    {/* <Link
-                                        href={"/"}
-                                        className="me-3 outline-none cursor-pointer capitalize font-normal text-primary hover:text-primary-foregroundHoverText flex flex-row items-center"
-                                    >
-                                        Upcoming Properties
-                                    </Link>
-                                    <Link
-                                        href={"/"}
-                                        className="me-3 outline-none cursor-pointer capitalize font-normal text-primary hover:text-primary-foregroundHoverText flex flex-row items-center"
-                                    >
-                                        Marketing
-                                    </Link> */}
                                     {siteConfig.header.headerLinks.map((link) => (
                                         <Link
                                             href={link.href}

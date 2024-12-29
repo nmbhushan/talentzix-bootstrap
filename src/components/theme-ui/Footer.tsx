@@ -13,8 +13,7 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            Talentzix
           </a>
         </div>
 

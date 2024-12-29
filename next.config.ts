@@ -9,7 +9,8 @@ const nextConfig: NextConfig = {
         domains: [
             'exalogic-store.s3.us-east-2.amazonaws.com',
             'images.unsplash.com',
-            'res.cloudinary.com'
+            'res.cloudinary.com',
+            'resumegenie.s3.ap-south-1.amazonaws.com'
         ],
     },
 };

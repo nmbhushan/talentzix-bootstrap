@@ -1,55 +1,83 @@
 import { Radar } from "lucide-react";
-
+import Image from 'next/image';
 interface SponsorProps {
   icon: JSX.Element;
-  name: string;
 }
 
 const sponsors: SponsorProps[] = [
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 1",
+    icon: <Image
+          src="https://resumegenie.s3.ap-south-1.amazonaws.com/company-logo/amazon.png"
+          width={130}
+          height={60}
+          alt="Picture of the author"
+        />,
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 2",
+    icon: <Image
+          src="https://resumegenie.s3.ap-south-1.amazonaws.com/company-logo/cognizant.png"
+          width={130}
+          height={60}
+          alt="Picture of the author"
+        />,
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 3",
+    icon: <Image
+          src="https://resumegenie.s3.ap-south-1.amazonaws.com/company-logo/dell.png"
+          width={130}
+          height={60}
+          alt="Picture of the author"
+        />,
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 4",
+    icon: <Image
+          src="https://resumegenie.s3.ap-south-1.amazonaws.com/company-logo/facebook.png"
+          width={130}
+          height={60}
+          alt="Picture of the author"
+        />,
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 5",
+    icon: <Image
+          src="https://resumegenie.s3.ap-south-1.amazonaws.com/company-logo/ibm.png"
+          width={130}
+          height={60}
+          alt="Picture of the author"
+        />,
   },
   {
-    icon: <Radar size={34} />,
-    name: "Sponsor 6",
+    icon: <Image
+          src="https://resumegenie.s3.ap-south-1.amazonaws.com/company-logo/microsoft.png"
+          width={130}
+          height={60}
+          alt="Picture of the author"
+        />,
+  },
+  {
+    icon: <Image
+          src="https://resumegenie.s3.ap-south-1.amazonaws.com/company-logo/samsung.png"
+          width={130}
+          height={60}
+          alt="Picture of the author"
+        />,
   },
 ];
+
 
 export const Sponsors = () => {
   return (
     <section
       id="sponsors"
-      className="container pt-24 sm:py-32"
+      className="container pt-20 sm:py-20 nm-30"
     >
       <h2 className="text-center text-md lg:text-xl font-bold mb-8 text-primary">
-        Investors and founders
+        Our Career Partner
       </h2>
 
       <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
-        {sponsors.map(({ icon, name }: SponsorProps) => (
-          <div
-            key={name}
-            className="flex items-center gap-1 text-muted-foreground/60"
-          >
+        {sponsors.map(({ icon }: SponsorProps) => (
+          <div className="flex items-center gap-1 text-muted-foreground/60">
             <span>{icon}</span>
-            <h3 className="text-xl  font-bold">{name}</h3>
           </div>
         ))}
       </div>

@@ -8,13 +8,13 @@ export const About = () => {
       id="about"
       className="container py-24 sm:py-32"
     >
-      <div className="bg-muted/50 border rounded-lg py-12">
+      <div className="py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
-          <Image
-            src={pilot}
-            alt=""
-            className="w-[300px] object-contain rounded-lg"
-          />
+          <img
+            src="https://resumegenie.s3.ap-south-1.amazonaws.com/ats.png"
+            alt="resume"
+            className="w-[500px] grayscale-[0%] -top-12 rounded-full object-cover"
+          />,
           {/* <img
             src={pilot}
             alt=""
@@ -23,21 +23,19 @@ export const About = () => {
           <div className="bg-green-0 flex flex-col justify-between">
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-                  About{" "}
-                </span>
-                Company
+                Resumes optimized for applicant tracking systems (ATS)
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+                Enhancv resumes and cover letters are thoroughly tested with major ATS systems to 
+                guarantee full compatibility and accurate parsing.
               </p>
+              <ul className="py-3">
+                <li className="py-2">Clear and accessible contact information</li>
+                <li className="py-2">Complete parsing of the experience section</li>
+                <li className="py-2">Streamlined and ATS-friendly skills section</li>
+              </ul>
             </div>
-
-            <Statistics />
+            {/* <Statistics /> */}
           </div>
         </div>
       </div>
