@@ -11,9 +11,9 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Effortless online resume builder",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Craft an amazing resume in minutes, directly in your browser.",
     icon: <ChartIcon />,
   },
   {
@@ -32,21 +32,15 @@ const serviceList: ServiceProps[] = [
 
 export const Services = () => {
   return (
-    <section className="container py-24 sm:py-32">
+    <section className="container py-3 sm:py-3">
       <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold">
-            <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
-            </span>
-            Services
-          </h2>
-
-          <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+          <p className="text-muted-foreground text-xl mt-4">
+            Our Best Services
           </p>
-
+          <h2 className="text-3xl md:text-4xl font-bold mb-8">
+            Empowering you to achieve your career goals
+          </h2>
           <div className="flex flex-col gap-8">
             {serviceList.map(({ icon, title, description }: ServiceProps) => (
               <Card key={title}>
@@ -65,12 +59,6 @@ export const Services = () => {
             ))}
           </div>
         </div>
-
-        <Image
-          src={cubeLeg}
-          className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
-          alt="About services"
-        />
       </div>
     </section>
   );

@@ -63,8 +63,8 @@ export default function HomePage() {
         <Sponsors />
         <HowItWorks />
         <About />
-        <Features />
         <Services />
+        <Features />
         <Cta />
         <Testimonials />
         <Team />
