@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { About } from "@/components/theme-ui/About";
 import { Cta } from "@/components/theme-ui/Cta";
@@ -6,7 +6,6 @@ import { FAQ } from "@/components/theme-ui/FAQ";
 import { Features } from "@/components/theme-ui/Features";
 import { Footer } from "@/components/theme-ui/Footer";
 import { Hero } from "@/components/theme-ui/Hero";
-import { HowItWorks } from "@/components/theme-ui/HowItWorks";
 import { Navbar } from "@/components/theme-ui/Navbar";
 import { Newsletter } from "@/components/theme-ui/Newsletter";
 import { Pricing } from "@/components/theme-ui/Pricing";
@@ -15,7 +14,9 @@ import { Services } from "@/components/theme-ui/Services";
 import { Sponsors } from "@/components/theme-ui/Sponsors";
 import { Team } from "@/components/theme-ui/Team";
 import { Testimonials } from "@/components/theme-ui/Testimonials";
+import ResumeCarousel from '@/components/theme-ui/ResumeCarousel';
 import "./App.css";
+import { HowItWorks } from "@/components/theme-ui/HowItWorks";
 
 // import { useTranslations } from 'next-intl';
 // import Banner from '@/components/landing/sections/Banner';
@@ -30,7 +31,6 @@ import "./App.css";
 // import PageContainer from '@/components/ui/page-container';
 // import { FIXED_PAGES_CONFIG } from '@/config/portal.config';
 // import LoginPage from '../(auth)/login/page';
-
 
 // export default function HomePage() {
 //     const t = useTranslations('HomePage');
@@ -63,6 +63,7 @@ export default function HomePage() {
         <Sponsors />
         <HowItWorks />
         <About />
+        <ResumeCarousel />
         <Features />
         <Services />
         <Cta />
@@ -71,7 +72,6 @@ export default function HomePage() {
         <Pricing />
         <Newsletter />
         <FAQ />
-
       </>
     );
-  }
+}
