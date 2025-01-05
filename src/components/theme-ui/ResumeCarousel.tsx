@@ -8,7 +8,6 @@ export interface Template {
 // components/ResumeCarousel.tsx
 import { FC, useState, useCallback } from 'react';
 import Image from 'next/image';
-import { Template } from '@/types';
 import LeftArrow from '@/assets/Left.png'; // Import Left arrow image
 import RightArrow from '@/assets/Right.png'; // Import Right arrow image
 
