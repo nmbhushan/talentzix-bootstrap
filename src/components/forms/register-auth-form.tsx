@@ -55,7 +55,7 @@ const RegisterAuthForm = () => {
                 onSubmit={form.handleSubmit(Submit)}
                 className="space-y-5 text-left"
             >
-                <FormField
+                {/* <FormField
                     control={form.control}
                     name="Customer_type"
                     render={({ field }) => (
@@ -75,7 +75,7 @@ const RegisterAuthForm = () => {
                             <FormMessage />
                         </FormItem>
                     )}
-                />
+                /> */}
 
                 <div className=" flex items-center justify-center gap-6 mt-4">
                     <div className="flex flex-col w-full">
@@ -120,7 +120,7 @@ const RegisterAuthForm = () => {
                         Mobile No <span className="text-red-600">*</span>
                     </Label>
                     <Input
-                        placeholder="+971"
+                        placeholder="+91"
                         className="mt-2"
                     />
                 </div>
@@ -133,10 +133,10 @@ const RegisterAuthForm = () => {
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel className="text-black">
-                                    Email
+                                    Email ID
                                 </FormLabel>
                                 <FormControl>
-                                    <Input placeholder="Emal" {...field} />
+                                    <Input placeholder="Email ID" {...field} />
                                 </FormControl>
                                 <FormMessage className="text-sm" />
                             </FormItem>
@@ -154,7 +154,7 @@ const RegisterAuthForm = () => {
                                     Password
                                 </FormLabel>
                                 <FormControl>
-                                    <Input placeholder="Last Name" {...field} />
+                                    <Input placeholder="Password" {...field} />
                                 </FormControl>
                                 <FormMessage className="text-sm" />
                             </FormItem>
