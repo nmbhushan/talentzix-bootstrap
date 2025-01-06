@@ -15,13 +15,13 @@ export const siteConfig = {
   },
   contact: {
     email: 'realcube@exalogic.co',
-    phone: '+971 391 3570'
+    phone: ''
   },
   //site header links
   header: {
     headerLinks: [
       { title: 'Home', href: '/' },
-      { title: 'Properties', href: '/properties-listing' },
+      { title: 'Properties', href: '' },
       { title: 'Area Guide', href: '#' },
       { title: 'Marketing', href: '#' }
     ],
