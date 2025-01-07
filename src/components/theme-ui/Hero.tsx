@@ -6,7 +6,7 @@ import { HeroStatistics } from "./HeroStatistics";
 
 export const Hero = () => {
   return (
-    <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-20 gap-10">
+    <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-20 gap-10 bg-gradient-to-r from-purple-50 to-purple-100">
       <div className="text-center lg:text-start space-y-6">
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
           Build YOUR RESUME.

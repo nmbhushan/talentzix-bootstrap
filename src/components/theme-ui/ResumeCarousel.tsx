@@ -142,7 +142,7 @@ const ResumeCarousel: FC<ResumeCarouselProps> = () => {
                         aria-label="Next template"
                     >
                         <Image
-                            src={RightArrow} // Use the imported image
+                            src={RightArrow} 
                             alt="Next"
                             width={30}
                             height={30}
