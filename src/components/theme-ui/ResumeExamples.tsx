@@ -31,11 +31,11 @@ const ResumeExamples = () => {
   ];
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center  px-4">
+    <div className="relative flex items-center justify-center px-4 pt-12">
       {/* Main Container */}
       <div className="relative z-10 bg-gray-50 rounded-2xl shadow-lg p-6 md:p-8 max-w-5xl w-full">
         {/* Spiral Decoration Inside the Container */}
-        <div className="absolute top-4 right-2 md:top-2 md:right-28">
+        <div className="absolute top-2 right-6 md:top-3 md:right-10">
           <Image
             src={Spiral}
             alt="Spiral Decoration"
