@@ -15,8 +15,10 @@ import { Sponsors } from "@/components/theme-ui/Sponsors";
 import { Team } from "@/components/theme-ui/Team";
 import { Testimonials } from "@/components/theme-ui/Testimonials";
 import ResumeCarousel from '@/components/theme-ui/ResumeCarousel';
+import ResumeExamples from '@/components/theme-ui/ResumeExamples';
 import "./App.css";
 import { HowItWorks } from "@/components/theme-ui/HowItWorks";
+import ChooseUs from "@/components/theme-ui/ChooseUs";
 
 // import { useTranslations } from 'next-intl';
 // import Banner from '@/components/landing/sections/Banner';
@@ -64,14 +66,10 @@ export default function HomePage() {
         <HowItWorks />
         <About />
         <ResumeCarousel />
-        <Features />
-        <Services />
-        <Cta />
-        <Testimonials />
-        <Team />
-        <Pricing />
-        <Newsletter />
+        <ResumeExamples />
+        <ChooseUs />
         <FAQ />
+        <Newsletter />
       </>
     );
 }

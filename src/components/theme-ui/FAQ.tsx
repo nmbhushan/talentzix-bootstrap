@@ -13,34 +13,44 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "How can I use RESUME BUILDER for free?",
+    answer:
+      "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+    question: "How do I cancel, downgrade or delete my account?",
+    answer: "You can cancel, downgrade, or delete your account from the settings page.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+    question: "Can I download my resume to Word or PDF?",
+    answer: "Yes, you can download your resume in Word or PDF format.",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "How does billing work?",
+    answer: "Billing occurs monthly or annually, depending on your subscription plan.",
     value: "item-4",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+    question: "How do I share my resume and cover letter?",
+    answer: "You can share your resume and cover letter via the share options provided.",
     value: "item-5",
+  },
+  {
+    question: "How can I customize my resume?",
+    answer: "Customization options are available in the editor settings.",
+    value: "item-6",
+  },
+  {     question: "How can I get subscription payment receipts?",
+    answer: "Payment receipts can be downloaded from your account's billing section.",
+    value: "item-7",
+  },
+  {
+    question: "What can I do with a premium subscription?",
+    answer: "Premium subscriptions unlock additional features and templates.",
+    value: "item-8",
   },
 ];
 
@@ -48,44 +58,35 @@ export const FAQ = () => {
   return (
     <section
       id="faq"
-      className="container py-24 sm:py-32"
+      className="flex items-center justify-center min-h-screen bg-gray-50 py-10 px-4"
     >
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Frequently Asked{" "}
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Questions
-        </span>
-      </h2>
+      <div className="w-full max-w-4xl bg-white rounded-lg shadow-md p-6">
+        <h3 className="text-center text-sm font-semibold text-primary mb-2">FAQ</h3>
+        <h2 className="text-center text-2xl sm:text-4xl font-bold mb-8">
+          Frequently Asked Questions
+        </h2>
 
-      <Accordion
-        type="single"
-        collapsible
-        className="w-full AccordionRoot"
-      >
-        {FAQList.map(({ question, answer, value }: FAQProps) => (
-          <AccordionItem
-            key={value}
-            value={value}
-          >
-            <AccordionTrigger className="text-left">
-              {question}
-            </AccordionTrigger>
+        <Accordion type="single" collapsible className="w-full">
+          {FAQList.map(({ question, answer, value }: FAQProps) => (
+            <AccordionItem
+              key={value}
+              value={value}
+              className="border-b border-gray-300"
+            >
+              <AccordionTrigger className="flex items-center justify-between text-lg font-semibold text-gray-800 py-4">
+                {question}
+                
+              </AccordionTrigger>
 
-            <AccordionContent>{answer}</AccordionContent>
-          </AccordionItem>
-        ))}
-      </Accordion>
-
-      <h3 className="font-medium mt-4">
-        Still have questions?{" "}
-        <a
-          rel="noreferrer noopener"
-          href="#"
-          className="text-primary transition-all border-primary hover:border-b-2"
-        >
-          Contact us
-        </a>
-      </h3>
+              <AccordionContent className="text-sm text-gray-600 pb-4">
+                {answer}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      </div>
     </section>
   );
 };
+
+   
