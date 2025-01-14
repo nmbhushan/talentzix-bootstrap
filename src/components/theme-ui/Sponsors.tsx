@@ -64,6 +64,7 @@ const sponsors: SponsorProps[] = [
 ];
 
 
+
 export const Sponsors = () => {
   return (
     <section
@@ -75,8 +76,8 @@ export const Sponsors = () => {
       </h2>
 
       <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8">
-        {sponsors.map(({ icon }: SponsorProps) => (
-          <div className="flex items-center gap-1 text-muted-foreground/60">
+        {sponsors.map(({ icon }: SponsorProps,index:any) => (
+          <div className="flex items-center gap-1 text-muted-foreground/60" key={index}>
             <span>{icon}</span>
           </div>
         ))}

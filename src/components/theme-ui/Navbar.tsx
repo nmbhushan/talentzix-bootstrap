@@ -26,23 +26,23 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#Home",
+    href: "/",
     label: "Home",
   },
   {
-    href: "#ResumeTemplates",
+    href: "/resume-templates",
     label: "Resume Templates",
   },
   {
-    href: "#CVTemplates",
+    href: "/cv-templates",
     label: "CV Templates",
   },
   {
-    href: "#Resources",
+    href: "/blogs",
     label: "Blogs",
   },
   {
-    href: "#faq",
+    href: "/faqs",
     label: "FAQ",
   },
 ];
@@ -59,7 +59,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              Talentzix
+             
             </a>
           </NavigationMenuItem>
 
@@ -119,9 +119,22 @@ export const Navbar = () => {
             ))}
           </nav>
 
+          {/* <div className="hidden md:flex gap-2">
+            <ModeToggle />
+          </div> */}
+
           <div className="hidden md:flex gap-2">
+            <a
+              href="/login"
+              className={`border ${buttonVariants({ variant: "secondary" })}`}
+            >
+              Login
+            </a>
+
             <ModeToggle />
           </div>
+
+
         </NavigationMenuList>
       </NavigationMenu>
     </header>

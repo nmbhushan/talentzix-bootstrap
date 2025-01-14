@@ -13,7 +13,7 @@ export const TOP_NAV_CONFIG = {
 export const FEATURE_CONFIG = {
     EmailSignIn: true,
     EmailSignup: true,
-    UAEPassLogin: true,
+    UAEPassLogin: false,
 }
 
 export const FIXED_PAGES_CONFIG = {

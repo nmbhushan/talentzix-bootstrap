@@ -11,156 +11,138 @@ export const Footer = () => {
           <a
             rel="noreferrer noopener"
             href="/"
-            className="font-bold text-xl flex"
+            className="font-bold text-xl flex pb-3"
           >
             Talentzix
           </a>
+          <p className="text-gray-400 text-sm">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+          </p>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg"> Quick Link </h3>
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/about-us"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              About Us
+            </a>
+          </div>
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="/resume-templates"
+              className="opacity-60 hover:opacity-100"
+            >
+              Resume Templates
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/cv-templates"
               className="opacity-60 hover:opacity-100"
             >
-              Twitter
+              CV Templates
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/blogs"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              Blogs
             </a>
           </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/faqs"
               className="opacity-60 hover:opacity-100"
             >
-              Web
+              FAQ’S
             </a>
           </div>
-
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/contact-us"
               className="opacity-60 hover:opacity-100"
             >
-              Mobile
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Desktop
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Features
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Pricing
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              FAQ
+              Contact Us
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
+          <h3 className="font-bold text-lg">Policy Link</h3>
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/terms-and-conditions"
               className="opacity-60 hover:opacity-100"
             >
-              Youtube
+              Terms & Conditions
+            </a>
+          </div>
+
+
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="/privacy-policy"
+              className="opacity-60 hover:opacity-100"
+            >
+               Privacy Policy
+            </a>
+          </div>
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="/cookies-policy"
+              className="opacity-60 hover:opacity-100"
+            >
+              Cookies Policy
+            </a>
+          </div>
+          <div>
+            <a
+              rel="noreferrer noopener"
+              href="/payment-policy"
+              className="opacity-60 hover:opacity-100"
+            >
+              Payment Policy
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/shipping-policy"
               className="opacity-60 hover:opacity-100"
             >
-              Discord
+              Shipping Policy
             </a>
           </div>
+        </div>
 
+        <div className="flex flex-col gap-2">
+          <h3 className="font-bold text-lg">Contact us</h3>
           <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Twitch
-            </a>
+            <p>support@talentzix.ai</p>
           </div>
         </div>
       </section>
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
-          <a
-            rel="noreferrer noopener"
-            target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
-            className="text-primary transition-all border-primary hover:border-b-2"
-          >
-            Leo Miranda
-          </a>
+          &copy; 2025 Talentzix
         </h3>
       </section>
     </footer>
