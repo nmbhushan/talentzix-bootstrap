@@ -59,7 +59,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex"
             >
-              Talentzix
+             
             </a>
           </NavigationMenuItem>
 
