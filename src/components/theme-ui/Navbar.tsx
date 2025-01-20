@@ -1,5 +1,8 @@
 'use client'
 import { useState } from "react";
+import Link from 'next/link';
+import Image from 'next/image';
+import { siteConfig } from '@/config/siteConfig';
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -54,13 +57,14 @@ export const Navbar = () => {
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
-            <a
-              rel="noreferrer noopener"
-              href="/"
-              className="ml-2 font-bold text-xl flex"
-            >
-             
-            </a>
+            <Link href={"/"}><Image
+                width={siteConfig.logoWidth}
+                height={siteConfig.logoHeight}
+                src={siteConfig.logo}
+                alt={siteConfig.name}
+                className="dark:invert dark:brightness-0 dark:saturate-0"
+            />
+            </Link>
           </NavigationMenuItem>
 
           {/* mobile */}
