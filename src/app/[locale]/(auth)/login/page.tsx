@@ -20,8 +20,8 @@ import { FEATURE_CONFIG } from "@/config/portal.config";
 
 export default function LoginPage({
     metaData,
-    termsLink = '/terms',
-    privacyLink = '/privacy'
+    termsLink = '/terms-and-conditions',
+    privacyLink = '/privacy-policy'
 }: any) {
 
     return (

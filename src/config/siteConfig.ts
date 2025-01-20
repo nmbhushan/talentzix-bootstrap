@@ -1,27 +1,27 @@
 import { FaFacebookSquare, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 
 export const siteConfig = {
-  name: 'Realcube 2.0', // Your site name
-  description: 'A realcube 2.0 product.',
-  authPageTitle: 'Base Portal',
-  authPageDesc: 'Base Portal - A Realcube 2.0 Product',
-  logo: 'https://www.realcube.estate/assets/web/img/home-page-img/menu-logo.svg',
+  name: 'Talentzix', // Your site name
+  description: 'Talentzix : Craft Your Dream Resume in 10 Minutes with GenA',
+  authPageTitle: 'Talentzix',
+  authPageDesc: 'Talentzix : Craft Your Dream Resume in 10 Minutes with GenA',
+  logo: 'https://resumegenie.s3.ap-south-1.amazonaws.com/logo.png',
   logoWidth: 131,
   logoHeight: 34,
   links: {
     linkedin: 'https://www.linkedin.com/company/realcubecommunity/',
     website:
-      'https://www.realcube.estate/assets/web/img/home-page-img/menu-logo.svg'
+      'https://resumegenie.s3.ap-south-1.amazonaws.com/logo.png'
   },
   contact: {
-    email: 'realcube@exalogic.co',
-    phone: '+971 391 3570'
+    email: 'support@talentzix.ai',
+    phone: ''
   },
   //site header links
   header: {
     headerLinks: [
       { title: 'Home', href: '/' },
-      { title: 'Properties', href: '/properties-listing' },
+      { title: 'Properties', href: '' },
       { title: 'Area Guide', href: '#' },
       { title: 'Marketing', href: '#' }
     ],

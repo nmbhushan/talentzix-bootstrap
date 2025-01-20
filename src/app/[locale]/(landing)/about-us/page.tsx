@@ -70,7 +70,7 @@ const Aboutus = () => {
                     <p>Our vision is to become the world's leading provider of cutting-edge technology solutions for sustainable communities and cities. We aim to empower people and businesses with the tools they need to succeed in the digital age, and we will continue to push the limits of what's possible to make this vision a reality. With a focus on innovation and excellence, we will continue to create products that transform the world and make a positive impact on society.</p>
                     <div className="grid lg:grid-cols-4 gap-5">
                         {ourValues.map((item, index: any) => (
-                            <div key={index} className="card">
+                            <div key={index} className="card"> 
                                 <Image src={item.imageurl} alt="Our Values" width={300} height={300} className="w-full rounded-lg min-h-[290px] mt-6" />
                             </div>
                         ))}

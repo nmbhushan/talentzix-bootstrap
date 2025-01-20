@@ -1,5 +1,8 @@
 'use client'
 import { useState } from "react";
+import Link from 'next/link';
+import Image from 'next/image';
+import { siteConfig } from '@/config/siteConfig';
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -26,23 +29,23 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#Home",
+    href: "/",
     label: "Home",
   },
   {
-    href: "#ResumeTemplates",
+    href: "/resume-templates",
     label: "Resume Templates",
   },
   {
-    href: "#CVTemplates",
+    href: "/cv-templates",
     label: "CV Templates",
   },
   {
-    href: "#Resources",
+    href: "/blogs",
     label: "Blogs",
   },
   {
-    href: "#faq",
+    href: "/faqs",
     label: "FAQ",
   },
 ];
@@ -50,17 +53,18 @@ const routeList: RouteProps[] = [
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
+    <header className="sticky rounded-b-3xl top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background bg-gradient-to-t from-purple-50 to-purple-100">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
-            <a
-              rel="noreferrer noopener"
-              href="/"
-              className="ml-2 font-bold text-xl flex"
-            >
-              Talentzix
-            </a>
+            <Link href={"/"}><Image
+                width={siteConfig.logoWidth}
+                height={siteConfig.logoHeight}
+                src={siteConfig.logo}
+                alt={siteConfig.name}
+                className="dark:invert dark:brightness-0 dark:saturate-0"
+            />
+            </Link>
           </NavigationMenuItem>
 
           {/* mobile */}
@@ -119,9 +123,22 @@ export const Navbar = () => {
             ))}
           </nav>
 
+          {/* <div className="hidden md:flex gap-2">
+            <ModeToggle />
+          </div> */}
+
           <div className="hidden md:flex gap-2">
+            <a
+              href="/login"
+              className={`border ${buttonVariants({ variant: "secondary" })}`}
+            >
+              Login
+            </a>
+
             <ModeToggle />
           </div>
+
+
         </NavigationMenuList>
       </NavigationMenu>
     </header>
