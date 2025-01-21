@@ -123,7 +123,7 @@ const config: Config = {
                 sm: 'calc(var(--radius) - 4px)',
             },
             backgroundImage: {
-                'landing-banner': "url('/images/landing/banner-bg.png')",
+                'landing-banner-old': "url('/images/landing/banner-bg.png')",
                 'landing-discover': "url('/images/landing/view-360.png')",
                 'landing-properties-value': "url('/images/landing/sla-bg-img.png')",
                 'landing-testimonal': "url('/images/landing/testimonial-banner.png')",
