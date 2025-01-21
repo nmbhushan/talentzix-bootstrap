@@ -35,9 +35,9 @@ export default function LoginPage({
             <LoginLayout
                 // title={['Realcube 2.0', '']}
                 // description='This library has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.'
-                buttonText='Sign Up'
+                buttonText='Create an account'
                 buttonURL={FIX_ROUTES.signUp}
-                siteTitle='Sign In'
+                siteTitle='Sign In Your Account'
                 buttonShow={FIX_ROUTES.signUp ? true : false}
             >
                 {FEATURE_CONFIG.EmailSignIn &&
@@ -72,7 +72,7 @@ export default function LoginPage({
                     </Link>
                 }
 
-                <p className="px-8 text-center text-xs text-muted-foreground/70">
+                <p className="px-8 text-center text-[12px] text-[#000000]">
                     By clicking continue, you agree to our{' '}
                     <Link
                         href={termsLink}
@@ -87,6 +87,17 @@ export default function LoginPage({
                     >
                         Privacy Policy
                     </Link>
+                </p>
+                <p className="px-8 text-center text-[12px] text-[#000000]">
+                    First time here?{' '}
+                    {/* {buttonShow && */}
+                    <Link
+                        href={'register'}
+                        className="underline underline-offset-4 hover:text-primary transition-colors"
+                    >
+                        Create an account
+                    </Link>
+                    {/* } */}
                 </p>
             </LoginLayout>
         </>
