@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { buttonVariants } from '@/components/ui/button';
-import { Linkedin, Facebook, Mail } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { siteConfig } from '@/config/siteConfig';
 import { FlipWords } from '@/components/ui/flip-words';
@@ -27,7 +27,7 @@ const LoginLayout = ({
 }) => {
     return (
         <div className="relative md:h-screen flex-col items-center justify-center md:grid lg:max-w-none lg:grid-cols-2 lg:px-0">
-            <div className="relative hidden h-full flex-col p-0 dark:text-white dark:border-r lg:flex dark:bg-[primary] bg-[#FFF5E4]">
+            <div className="relative hidden h-full flex-col p-0 dark:text-white dark:border-r lg:flex dark:bg-[primary]">
                 <div className="relative h-full z-20 flex items-center">
                     <Image
                         width="704"
@@ -56,24 +56,23 @@ const LoginLayout = ({
                                     alt={siteConfig.name}
                                 />
                             </Link>
-                            <h1 className="text-[24px] mb-4 font-semibold tracking-tight text-center text-foreground/90">
+                            <h2 className="text-[24px] mb-4 font-semibold tracking-tight text-center text-foreground/90">
                                 {siteTitle}
-                            </h1>
+                            </h2>
+                            
+                            
+
                             <div className="flex items-center justify-between space-x-3 text-center !mt-4">
-                                <Link href={'www.linkedin.com'} className="text-[#0077B5] hover:text-[#FFFFFF] w-full flex items-center justify-center border border-[#0077B5] hover:bg-[#0077B5] rounded-[7px] px-3 py-3">
-                                    <Linkedin className="me-1 text-[12px]"/>
-                                    <span className="hidden sm:block">Linkedin</span>
-                                </Link>
+                                
                                 <Link href={'www.google.com'} className="text-[#E94235] hover:text-[#FFFFFF] w-full flex items-center justify-center border border-[#E94235] hover:bg-[#E94235] rounded-[7px] px-3 py-3">
-                                    <Mail className="me-1 text-[12px]"/>
-                                    <span className="hidden sm:block">Google</span>
+                                    <span className="hidden sm:block"> Sign In With Google </span>
+                                    <Mail className="me-1 text-[12px] py-1"/>
                                 </Link>
-                                <Link href={'www.facebook.com'} className="text-[#1A97F0] hover:text-[#FFFFFF] w-full flex items-center justify-center border border-[#1A97F0] hover:bg-[#1A97F0] rounded-[7px] px-3 py-3">
-                                    <Facebook className="me-1 text-[12px]" />
-                                    <span className="hidden sm:block">Facebook</span>
-                                </Link>
+                                
                             </div>
-                            <p className="text-[12px] text-[#555555] text-center !mt-4">or use your email</p>
+
+                            <p className="text-[12px] text-[#555555] text-center !mt-4">or</p>
+
                         </div>
                     </div>
                     {children}

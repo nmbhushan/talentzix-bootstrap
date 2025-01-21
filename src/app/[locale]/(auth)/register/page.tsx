@@ -66,7 +66,7 @@ export default function RegisterPage({
                         )}
                     >
                         <img src="/images/uae-pass-icon.png" alt="UAE passs" className="pe-1" />
-                        Signup With UAE PASS
+                        
                     </button>
                 }
                 {FIX_ROUTES.signIn ?

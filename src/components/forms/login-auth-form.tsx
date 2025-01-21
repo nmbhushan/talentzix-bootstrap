@@ -90,7 +90,7 @@ const LoginAuthForm = () => {
                             <div className="relative">
                                 <FormItem>
                                     <FormControl>
-                                        <Input className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0" type={isPasswordVisible ? 'text' : 'password'} placeholder="password" {...field} value={field.value ?? ""} />
+                                        <Input className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0" type={isPasswordVisible ? 'text' : 'password'} placeholder="Password" {...field} value={field.value ?? ""} />
                                     </FormControl>
                                     <div className="absolute top-2 ltr:right-4 rtl:left-4 cursor-pointer" onClick={() => setIsPasswordVisible(!isPasswordVisible)}>{isPasswordVisible ? <FaRegEye /> : <FaRegEyeSlash />}  </div>
                                     <FormMessage />
