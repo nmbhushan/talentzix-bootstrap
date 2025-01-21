@@ -60,10 +60,10 @@ const LoginAuthForm = () => {
     return (
         <>
             {/* <UserAuthForm /> */}
-            <Form {...form} className="max-w-[410px]">
+            <Form {...form}>
                 <form
                     onSubmit={form.handleSubmit(onSubmit)}
-                    className="space-y-2 md:space-y-4 text-left"
+                    className="space-y-2 md:space-y-4 max-w-[410px] text-left"
                 >
                     <FormField
                         control={form.control}
