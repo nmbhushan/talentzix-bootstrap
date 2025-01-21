@@ -53,13 +53,13 @@ const routeList: RouteProps[] = [
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <header className="sticky rounded-b-3xl top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background bg-gradient-to-t from-purple-50 to-purple-100">
+    <header className="sticky h-[82px] flex items-center shadow rounded-b-3xl top-0 z-40 w-full bg-gradient-to-b from-[#EDF6FF] to-[#F5E3FC]">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
             <Link href={"/"}><Image
-                width={siteConfig.logoWidth}
-                height={siteConfig.logoHeight}
+                width="124"
+                height="28"
                 src={siteConfig.logo}
                 alt={siteConfig.name}
                 className="dark:invert dark:brightness-0 dark:saturate-0"
@@ -114,8 +114,8 @@ export const Navbar = () => {
                 rel="noreferrer noopener"
                 href={route.href}
                 key={i}
-                className={`text-[17px] ${buttonVariants({
-                  variant: "ghost",
+                className={`!text-[12px] ${buttonVariants({
+                  variant: "menu",
                 })}`}
               >
                 {route.label}
@@ -130,7 +130,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               href="/login"
-              className={`border ${buttonVariants({ variant: "secondary" })}`}
+              className={`h-[39px] min-w-[99px] !rounded-[71px] font-bold text-white text-[11px] hover:bg-none hover:!bg-[#219be4] bg-gradient-to-r from-[#C21EFC] to-[#0081EC] border ${buttonVariants({ variant: "secondary" })}`}
             >
               Login
             </a>

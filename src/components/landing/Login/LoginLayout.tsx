@@ -32,14 +32,14 @@ const LoginLayout = ({
                     <Image
                         width="704"
                         height="768"
-                        src="/images/landing/login-banner.webp"
+                        src="https://resumegenie.s3.ap-south-1.amazonaws.com/login/login-banner.webp"
                         alt="Login Banner"
                         className="object-cover h-full dark:invert dark:brightness-0 dark:saturate-0"
                     />
-                    <div className="z-20 absolute bottom-[50px] px-5 pb-5 text-center">
+                    <div className="z-20 absolute bottom-[50px] px-5 pb-5 text-center left-0 right-0">
                         <blockquote className="space-y-2">
                             <FlipWords className="text-white text-[22px] font-semibold inline-block" words={title} />
-                            <p className="text-[22px] leading-relaxed text-white">{description}</p>
+                            <p className="text-[22px] leading-[22px] text-white">{description}</p>
                         </blockquote>
                     </div>
                 </div>
