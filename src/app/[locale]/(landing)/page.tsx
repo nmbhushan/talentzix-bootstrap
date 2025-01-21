@@ -73,15 +73,6 @@ export default function HomePage() {
         <ChooseUs />
         <FAQ />
         <Newsletter />
-
-
-        {/* <Cta />
-        <Testimonials />
-        <Team />
-        <Pricing />
-        <Newsletter /> */}
-=======
-
       </>
     );
 }

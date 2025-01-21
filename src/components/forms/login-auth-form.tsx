@@ -60,10 +60,10 @@ const LoginAuthForm = () => {
     return (
         <>
             {/* <UserAuthForm /> */}
-            <Form {...form}>
+            <Form {...form} className="max-w-[410px]">
                 <form
                     onSubmit={form.handleSubmit(onSubmit)}
-                    className="space-y-4 text-left"
+                    className="space-y-2 md:space-y-4 text-left"
                 >
                     <FormField
                         control={form.control}
@@ -76,6 +76,7 @@ const LoginAuthForm = () => {
                                         placeholder="Username"
                                         {...field}
                                         value={field.value ?? ""}
+                                        className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0"
                                     />
                                 </FormControl>
                                 <FormMessage />
@@ -89,7 +90,7 @@ const LoginAuthForm = () => {
                             <div className="relative">
                                 <FormItem>
                                     <FormControl>
-                                        <Input type={isPasswordVisible ? 'text' : 'password'} placeholder="password" {...field} value={field.value ?? ""} />
+                                        <Input className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0" type={isPasswordVisible ? 'text' : 'password'} placeholder="password" {...field} value={field.value ?? ""} />
                                     </FormControl>
                                     <div className="absolute top-2 ltr:right-4 rtl:left-4 cursor-pointer" onClick={() => setIsPasswordVisible(!isPasswordVisible)}>{isPasswordVisible ? <FaRegEye /> : <FaRegEyeSlash />}  </div>
                                     <FormMessage />
@@ -99,12 +100,12 @@ const LoginAuthForm = () => {
                     />
                     {FIX_ROUTES.forgotPassword ?
                         <div className="flex flex-row w-[100%] justify-end">
-                            <Link href={FIX_ROUTES.forgotPassword} className="hover:text-primary-hover text-[#49484c] text-[12px]">Forgot your password ?</Link>
+                            <Link href={FIX_ROUTES.forgotPassword} className="hover:text-primary-hover text-[#0074FF] text-[12px]">Forgot your password ?</Link>
                         </div>
                         : ''
                     }
                     <Link href='/dashboard' passHref>
-                        <Button type="submit" className="text-center w-[100%] mt-3">
+                        <Button type="submit" className="h-[52px] rounded-[8px] bg-[#6144A5] font-medium text-[20px] text-white text-center w-[100%] mt-3">
                             Sign In
                         </Button>
                     </Link>
