@@ -130,6 +130,7 @@ const config: Config = {
                 'property-banner': "url('/images/property/property-list-banner.png')",
                 'contact-banner': "url('/images/landing/contact-banner.png')",
                 'landing-banner': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/banner-bg.webp')",
+                'menu-style': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/activeness.webp')",
             },
             keyframes: {
                 'accordion-down': {

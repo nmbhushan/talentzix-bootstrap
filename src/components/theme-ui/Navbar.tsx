@@ -114,8 +114,8 @@ export const Navbar = () => {
                 rel="noreferrer noopener"
                 href={route.href}
                 key={i}
-                className={`text-[17px] ${buttonVariants({
-                  variant: "ghost",
+                className={`!text-[12px] ${buttonVariants({
+                  variant: "menu",
                 })}`}
               >
                 {route.label}
@@ -130,7 +130,7 @@ export const Navbar = () => {
           <div className="hidden md:flex gap-2">
             <a
               href="/login"
-              className={`h-[39px] min-w-[99px] !rounded-[71px] font-bold text-white text-[11px] hover:bg-none hover:bg-[#219be4] bg-gradient-to-r from-[#C21EFC] to-[#0081EC] border ${buttonVariants({ variant: "secondary" })}`}
+              className={`h-[39px] min-w-[99px] !rounded-[71px] font-bold text-white text-[11px] hover:bg-none hover:!bg-[#219be4] bg-gradient-to-r from-[#C21EFC] to-[#0081EC] border ${buttonVariants({ variant: "secondary" })}`}
             >
               Login
             </a>
