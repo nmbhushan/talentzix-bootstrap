@@ -4,7 +4,7 @@ export const siteConfig = {
   name: 'Talentzix', // Your site name
   description: 'Talentzix : Craft Your Dream Resume in 10 Minutes with GenA',
   authPageTitle: 'Talentzix',
-  authPageDesc: 'Talentzix : Craft Your Dream Resume in 10 Minutes with GenA',
+  authPageDesc: 'Craft Your Dream Resume in 10 Minutes with GenA',
   logo: 'https://resumegenie.s3.ap-south-1.amazonaws.com/logo.png',
   logoWidth: 131,
   logoHeight: 34,
