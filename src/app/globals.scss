@@ -190,14 +190,14 @@ body {
     outline: none;
 }
 
-//$direction-rtl: rtl;
+$direction-rtl: rtl;
 
 @mixin text-shadow($x: 0px, $y: 0px, $blur: 0px, $color: rgba(0, 0, 0, 0.9)) {
     text-shadow: $x $y $blur $color;
 }
 
 @mixin direction-rtl {
-    //direction: $direction-rtl;
+    direction: $direction-rtl;
 }
 
 .text-shadow-sm {
