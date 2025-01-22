@@ -7,19 +7,19 @@ import Image from 'next/image';
 
 const WhyChooseUs = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-around px-6 py-12 bg-white">
+    <div className="container flex flex-col md:flex-row items-center justify-around px-6 py-12 bg-white">
       {/* Left Content */}
       <div className="max-w-lg">
         <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
             Why Choose Us
         </p>
         <h2 className="text-[24px] mb-4 capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold mx-auto">Why Choose Us</h2>
-        <p className="text-[#504E4E] text-[12px] mb-6">
+        <p className="text-[#504E4E] text-[12px] mb-4">
           Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has
           been the industry's standard dummy text ever since the 1500s, when an unknown printer took
           a galley of type and scrambled it to make a type specimen book.
         </p>
-        <div className="flex items-center gap-4 mb-6 border-y border-[#EAF3F8] py-10">
+        <div className="flex items-center gap-4 mb-6 border-y border-[#EAF3F8] py-5">
           {/* Profile Section */}
           <div className="flex items-center">
             <Image

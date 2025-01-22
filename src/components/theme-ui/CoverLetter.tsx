@@ -34,7 +34,7 @@ const letter: Letter[] = [
 
 const CoverLetter = () => {
   return (
-    <div className="py-12">
+    <div className="container py-12">
         <div className="flex flex-col md:flex-row items-center px-6 bg-white">
           {/* Left Content */}
           <div className="max-w-lg">

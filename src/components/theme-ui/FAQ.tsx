@@ -58,7 +58,7 @@ export const FAQ = () => {
   return (
     <section
       id="faq"
-      className="flex items-center justify-center min-h-screen bg-white py-14"
+      className="flex items-center justify-center bg-white py-14"
     >
       <div className="container bg-white">
         <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text mx-auto text-transparent flex justify-center uppercase">Faq</p>
