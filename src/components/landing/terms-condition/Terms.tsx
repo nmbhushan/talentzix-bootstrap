@@ -8,60 +8,107 @@ const Terms = () => {
             <ScrollArea className="max-h-full overflow-y-auto">
                 <div className="space-y-4">
                     <section className="mt-2">
-                        <p className="mb-3">Thank you for selecting the Services offered by Exalogic Consulting Pvt. Ltd. and/or its subsidiaries and affiliates (referred to as "Real Cube," "we," "our," or "us"). These services are provided to you through this website and/or our mobile applications, including content, updates, and new releases (collectively referred to as the "Services").  </p>
-                        <p>Please review these Terms of Service ("Agreement") thoroughly. By accepting electronically (for example, by clicking "I Agree" or "Login"), installing, accessing, or using the Services, you agree to comply with and be bound by these terms. If you do not agree to this Agreement, you may not use the Services.</p>
+                        <p className="mb-3"> <strong> Effective Date: 22 Jan 2025</strong> </p>
+                        <p className="mb-3">
+                            Welcome to Talentzix.ai! By accessing or using our AI-based resume-building platform ("Platform"), you agree to comply with and be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, please do not use the Platform.
+                        </p>
                     </section>
                     <section>
-                        <h2 className="text-lg font-semibold mb-2">1. Agreement Overview</h2>
+                        <h2 className="text-lg font-semibold mb-2">1. Acceptance of Terms</h2>
                         <ul className="pl-2 space-y-2">
                             <li>
-                                1.1 The Real Cube Privacy Policy, which is accessible via the Services available on the website or provided to you otherwise.</li>
-                            <li>1.2 Any terms provided separately to you for the Services, including product or program terms, ordering, activation, and payment terms.</li>
-                        </ul>
-                    </section>
-                    <section>
-                        <h2 className="text-lg font-semibold mb-2">2. Disclaimer of Advice</h2>
-                        <p>The contents of Real Cube Services do not constitute professional advice and should not be relied upon when making or refraining from making any decision.</p>
-                    </section>
-                    <section>
-                        <h2 className="text-lg font-semibold mb-2">3. Changes to Use</h2>
-                        <p className="mb-3">Real Cube reserves the right to:</p>
-                        <ul className="pl-2 space-y-2">
-                            <li>
-                                3.1 Change or remove (temporarily or permanently) the website or any part of it without notice. You acknowledge and agree that Real Cube shall not be liable to you for any such changes or removals.</li>
-                            <li>
-                                3.2 Modify these Terms and Conditions at any time. Your continued use of the Services following any changes shall be deemed your acceptance of such changes.
+                                By accessing or using Talentzix.ai, you acknowledge that you have read, 
+                                understood, and agree to these Terms and our Privacy Policy.
                             </li>
                         </ul>
                     </section>
                     <section>
-                        <h2 className="text-lg font-semibold mb-2">4. Third-Party Links</h2>
-                        <p className="mb-3">Real Cube Services may include links to third-party websites that are controlled and maintained by others. Any link to other websites does not constitute an endorsement of those websites, and you acknowledge and agree that we are not responsible for the content or availability of any such sites.</p>
+                        <h2 className="text-lg font-semibold mb-2">2. Services Provided</h2>
+                        <p>
+                        Talentzix.ai offers AI-powered tools to help users create professional resumes. While we strive for accuracy, 
+                        the Platform’s recommendations and suggestions are provided for informational purposes only and should not be considered as guaranteed advice.
+                        </p>
                     </section>
                     <section>
-                        <h2 className="text-lg font-semibold mb-2">5. No Resale of Service</h2>
-                        <p className="mb-3">You agree not to reproduce, duplicate, copy, sell, resell, or exploit for any commercial purposes any portion of the Service, its use, or access to the Service. Real Cube reserves the right to modify or discontinue, temporarily or permanently, the Service (or any part thereof) with reasonable notice, allowing you to retain the information assets created by you on Real Cube. After the notice period, you agree that Real Cube shall not be liable to you or any third party.</p>
-                    </section>
-                    <section>
-                        <h2 className="text-lg font-semibold mb-2">6. Content Responsibility</h2>
-                        <p className="mb-3">You are solely responsible for all materials ("Content") uploaded, posted, or stored through your use of the Services. By providing Content through the Services, you grant Real Cube a worldwide, royalty-free, non-exclusive license to host and use that Content for the purpose of delivering the Services.</p>
-                        <p className="mb-3">Real Cube is not responsible for the Content or data you submit through the Services. You agree not to use, nor permit any third party to use, the Services to upload, post, distribute, link to, publish, reproduce, engage in, or transmit any of the following:</p>
+                        <h2 className="text-lg font-semibold mb-2">3. User Responsibilities</h2>
                         <ul className="pl-2 space-y-2">
                             <li>
-                                6.1 Illegal, fraudulent, defamatory, obscene, pornographic, profane, threatening, abusive, hateful, harassing, offensive, inappropriate, or objectionable information or communications of any kind, including conduct that would encourage "flaming" others, or that may incur criminal or civil liability under any law.</li>
-                            <li>
-                                6.2 Content that impersonates someone else or falsely represents your identity or qualifications, or that constitutes a breach of any individual's privacy.
+                                <strong> Account Registration: </strong> You may need to create an account to access certain features. You are responsible for maintaining the confidentiality of your account credentials.
                             </li>
                             <li>
-                            6.3 Investment opportunities, solicitations, chain letters, pyramid schemes, or other unsolicited commercial communications, or engage in spamming or flooding, unless permitted in writing by Real Cube.
+                                <strong> Accurate Information: </strong> You agree to provide accurate, current, and complete information when using the Platform.
                             </li>
                             <li>
-                            6.4 Any virus, trojan horse, worm, or other disruptive or harmful software or data.
-                            </li>
-                            <li>
-                            6.5 Any information, software, or Content that you do not own or have explicit permission to use from the copyright or intellectual property rights owner.
+                                <strong> Prohibited Activities: </strong> You agree not to misuse the Platform, including but not limited to:
+                                <ul className="pl-2 space-y-2">
+                                    <li>
+                                        Reverse-engineering or modifying the Platform.
+                                    </li>
+                                    <li>
+                                        Using the Platform for illegal purposes.
+                                    </li>
+                                    <li>
+                                        Uploading harmful or malicious content.
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
+                    </section>
+                    <section>
+                        <h2 className="text-lg font-semibold mb-2">4. Payment and Subscription</h2>
+                        <ul className="pl-2 space-y-2">
+                            <li>All content, tools, and technologies provided by Talentzix.ai are protected by intellectual property laws.</li>
+                            <li>You may use the Platform’s tools to create personal resumes, but you may not copy, distribute, or exploit any part of the Platform’s proprietary systems.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2 className="text-lg font-semibold mb-2">5. Intellectual Property</h2>
+                        <ul className="pl-2 space-y-2">
+                            <li>All content, tools, and technologies provided by Talentzix.ai are protected by intellectual property laws.</li>
+                            <li>You may use the Platform’s tools to create personal resumes, but you may not copy, distribute, or exploit any part of the Platform’s proprietary systems.</li>
+                        </ul>
+                    </section>
+                    <section>
+                    <h2 className="text-lg font-semibold mb-2">6. Limitation of Liability</h2>
+                        <ul className="pl-2 space-y-2">
+                            <li>Talentzix.ai does not guarantee job placement or career advancement.</li>
+                            <li>To the fullest extent permitted by law, Talentzix.ai is not liable for any direct, indirect, incidental, or consequential damages arising from your use of the Platform.</li>
+                        </ul>
+                    </section>
+                    <section>
+                    <h2 className="text-lg font-semibold mb-2">7. User-Generated Content</h2>
+                        <ul className="pl-2 space-y-2">
+                            <li>You retain ownership of any content you upload or create using the Platform.</li>
+                            <li>By uploading content, you grant Talentzix.ai a non-exclusive, royalty-free, worldwide license to use, reproduce, and display the content for operational purposes.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2 className="text-lg font-semibold mb-2">8. Third-Party Links</h2>
+                        <p>The Platform may include links to third-party websites. Talentzix.ai is not responsible for the content or practices of these websites.</p>
+                    </section>
+                    <section>
+                        <h2 className="text-lg font-semibold mb-2">9. Termination</h2>
+                        <ul className="pl-2 space-y-2">
+                            <li>Talentzix.ai reserves the right to suspend or terminate your account if you violate these Terms.</li>
+                            <li>You may delete your account at any time by contacting customer support or using the account management tools.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2 className="text-lg font-semibold mb-2">10. Changes to Terms</h2>
+                        <p>We may update these Terms from time to time. Any changes will be effective upon posting on the Platform. Continued use of the Platform after updates constitutes acceptance of the revised Terms.</p>
+                    </section>
+                    <section>
+                        <h2 className="text-lg font-semibold mb-2">11. Governing Law</h2>
+                        <p>These Terms are governed by the laws of Karnataka, without regard to its conflict of law principles.</p>
+                    </section>
+                    <section>
+                        <h2 className="text-lg font-semibold mb-2">12. Contact Us</h2>
+                        <p>
+                            For questions or concerns about these Terms, please contact us at: <strong> Talentzix.ai Support Team </strong> at Email: <a href="mailto:support@talentzix.ai">support@talentzix.ai</a>
+                        </p>
+                    </section>
+                    <section>
+                        <p>By using Talentzix.ai, you agree to these Terms and Conditions. Thank you for choosing our Platform to create your professional resumes!</p>
                     </section>
                 </div>
             </ScrollArea>

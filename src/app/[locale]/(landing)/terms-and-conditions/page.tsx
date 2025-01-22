@@ -3,8 +3,10 @@ import Terms from '@/components/landing/terms-condition/Terms';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'buy/rent residential and commercial properties',
-    description: 'RealCube offer villas, apartments, and townhouses for residential purposes, we also have a commercial space for buying and rent at the prime location of the city.'
+    title: 'Terms and Conditions - Talentzix.ai',
+    description: 'Read the terms and conditions for using Talentzix.ai, an AI-powered resume-building platform. Learn about our services, user responsibilities, payment terms, and more.',
+    keywords: 'AI resume builder terms, Talentzix terms and conditions, resume platform policies, subscription details, user responsibilities'
+
 };
 const breadcrum = [
     { href: "/", label: "Home" },  
