@@ -15,10 +15,10 @@ import { Team } from "@/components/theme-ui/Team";
 import { Testimonials } from "@/components/theme-ui/Testimonials";
 import ResumeCarousel from '@/components/theme-ui/ResumeCarousel';
 import ResumeExamples from '@/components/theme-ui/ResumeExamples';
-import Feedback from '@/components/theme-ui/Feedback';
 import "./App.css";
 import { HowItWorks } from "@/components/theme-ui/HowItWorks";
 import CoverLetter from "@/components/theme-ui/CoverLetter";
+import Feedback from "@/components/theme-ui/Feedback";
 import ChooseUs from "@/components/theme-ui/ChooseUs";
 import Test from "@/components/theme-ui/Test";
 import Services from "@/components/theme-ui/Servicespage";
@@ -75,7 +75,7 @@ export default function HomePage() {
             <CoverLetter />
             <ChooseUs />
         </div>
-        <Testimonials/>
+        <Feedback/>
         <FAQ />
       </>
     );
