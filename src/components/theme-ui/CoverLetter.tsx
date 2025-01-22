@@ -4,6 +4,13 @@ import  Cofounder from  '@/assets/Cofounder.png';
 import phone_icon from '@/assets/phone_icon.png';
 import Image from 'next/image';
 
+interface Letter {
+    id: string;
+    imageUrl: string;
+    title: string;
+    desc: string;
+}
+
 const letter: Letter[] = [
     {
         id: '1',
@@ -54,7 +61,7 @@ const CoverLetter = () => {
             />
             <div className="mb-3 h-[320px] overflow-y-auto pe-1 cover-scroll">
             {letter.map((letter, index) => (
-                <div className="flex items-center p-4 max-w-[611px] mb-3 mx-auto bg-[#F6F3FE] rounded-[14px]">
+                <div className="flex items-center p-4 max-w-[611px] mb-3 mx-auto bg-[#F6F3FE] rounded-[14px]" key={index}>
                     <div className="grid grid-cols-12 gap-6">
                         <div className="md:col-span-4">
                             <div className="bg-[#EEE8FD] rounded-[14px] flex items-center justify-center h-full">
