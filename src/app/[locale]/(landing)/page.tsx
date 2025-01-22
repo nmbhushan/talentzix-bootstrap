@@ -7,7 +7,6 @@ import { Features } from "@/components/theme-ui/Features";
 import { Footer } from "@/components/theme-ui/Footer";
 import { Hero } from "@/components/theme-ui/Hero";
 import { Navbar } from "@/components/theme-ui/Navbar";
-import { Newsletter } from "@/components/theme-ui/Newsletter";
 import { Pricing } from "@/components/theme-ui/Pricing";
 import { ScrollToTop } from "@/components/theme-ui/ScrollToTop";
 // import { Services } from "@/components/theme-ui/Services";
@@ -18,6 +17,8 @@ import ResumeCarousel from '@/components/theme-ui/ResumeCarousel';
 import ResumeExamples from '@/components/theme-ui/ResumeExamples';
 import "./App.css";
 import { HowItWorks } from "@/components/theme-ui/HowItWorks";
+import CoverLetter from "@/components/theme-ui/CoverLetter";
+import Feedback from "@/components/theme-ui/Feedback";
 import ChooseUs from "@/components/theme-ui/ChooseUs";
 import Test from "@/components/theme-ui/Test";
 import Services from "@/components/theme-ui/Servicespage";
@@ -70,9 +71,12 @@ export default function HomePage() {
         <Services />
         <ResumeCarousel />
         <ResumeExamples />
-        <ChooseUs />
+        <div className="bg-contain bg-no-repeat bg-right">
+            <CoverLetter />
+            <ChooseUs />
+        </div>
+        <Feedback/>
         <FAQ />
-        <Newsletter />
       </>
     );
 }

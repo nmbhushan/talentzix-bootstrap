@@ -58,27 +58,27 @@ export const FAQ = () => {
   return (
     <section
       id="faq"
-      className="flex items-center justify-center min-h-screen bg-gray-50 py-10 px-4"
+      className="flex items-center justify-center bg-white py-14"
     >
-      <div className="w-full max-w-4xl bg-white rounded-lg shadow-md p-6">
-        <h3 className="text-center text-sm font-semibold text-primary mb-2">FAQ</h3>
-        <h2 className="text-center text-2xl sm:text-4xl font-bold mb-8">
+      <div className="container bg-white">
+        <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text mx-auto text-transparent flex justify-center uppercase">Faq</p>
+        <h2 className="text-[24px] md:text-[35px] mb-10 capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold mx-auto">
           Frequently Asked Questions
         </h2>
 
-        <Accordion type="single" collapsible className="w-full">
+        <Accordion type="single" collapsible className="max-w-[980px] mx-auto">
           {FAQList.map(({ question, answer, value }: FAQProps) => (
             <AccordionItem
               key={value}
               value={value}
-              className="border-b border-gray-300"
+              className="border-b border-[#000000]"
             >
-              <AccordionTrigger className="flex items-center justify-between text-lg font-semibold text-gray-800 py-4">
+              <AccordionTrigger className="flex items-center justify-between text-[21px] font-medium text-[#000000] py-4">
                 {question}
                 
               </AccordionTrigger>
 
-              <AccordionContent className="text-sm text-gray-600 pb-4">
+              <AccordionContent className="text-[14px] text-[#504E4E] pb-4">
                 {answer}
               </AccordionContent>
             </AccordionItem>
