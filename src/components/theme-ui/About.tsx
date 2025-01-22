@@ -1,50 +1,59 @@
 import Image from "next/image";
-import Arrow from '@/assets/arrow_about.png'
 export const About = () => {
   return (
     <section
       id="about"
-      className="container py-2 sm:py-16 bg-gradient-to-r from-purple-50 to-purple-100"
+      className="bg-resume-bg bg-no-repeat bg-cover"
     >
-      <div className="py-12">
+      <div className="container py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
-          <img
-            src="https://resumegenie.s3.ap-south-1.amazonaws.com/ats.png"
+          <Image
+            src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-optimize.webp"
             alt="resume"
-            className="w-[500px] grayscale-[0%] -top-12 rounded-full object-cover"
+            width="410"
+            height="438"
           />
           <div className="flex flex-col">
-            <div className="pb-6">
-              <h2 className="text-3xl md:text-4xl font-bold">
+            <div className="pb-0">
+              <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
+                Lorem Ipsum
+              </p>
+              <h2 className="text-[24px] md:text-[35px] capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold">
                 Resumes Optimized For Applicant Tracking Systems (ATS)
               </h2>
-              <p className="text-xl text-muted-foreground mt-4">
+              <p className="mt-4 text-[#504E4E] text-[14px] font-medium max-w-[500px] leading-normal border-b border-[#DEE6F1] pb-3">
                 Enhancv resumes and cover letters are thoroughly tested with
                 major ATS systems to guarantee full compatibility and accurate
                 parsing.
               </p>
               <ul className="py-3">
-                <li className="py-2 flex items-center">
+                <li className="text-[#17012] text-[11px] font-medium leading-normal pb-2 flex items-center">
                   <Image
-                    src={Arrow} 
+                    src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
+                    width="15"
+                    height="15"
                     alt="Check"
-                    className="w-5 h-5 mr-3"
+                    className="mr-1"
                   />
                   Clear and accessible contact information
                 </li>
-                <li className="py-2 flex items-center">
+                <li className="text-[#17012] text-[11px] font-medium leading-normal pb-2 flex items-center">
                   <Image
-                    src={Arrow} 
+                    src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
+                    width="15"
+                    height="15"
                     alt="Check"
-                    className="w-5 h-5 mr-3"
+                    className="mr-1"
                   />
                   Complete parsing of the experience section
                 </li>
-                <li className="py-2 flex items-center">
+                <li className="text-[#17012] text-[11px] font-medium leading-normal pb-2 flex items-center">
                   <Image
-                    src={Arrow}
+                    src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
+                    width="15"
+                    height="15"
                     alt="Check"
-                    className="w-5 h-5 mr-3"
+                    className="mr-1"
                   />
                   Streamlined and ATS-friendly skills section
                 </li>
@@ -52,7 +61,7 @@ export const About = () => {
             </div>
             <div className="flex">
               <button
-                className="px-8 py-3 bg-purple-600 text-white font-semibold rounded-full shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50"
+                className="mt-4 h-[36px] uppercase bg-[#635AD9] hover:bg-[#219be4] text-white rounded-[71px] font-bold text-[11px] text-center px-5"
               >
                 ABOUT US
               </button>
