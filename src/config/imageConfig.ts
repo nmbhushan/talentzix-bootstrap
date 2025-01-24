@@ -7,7 +7,7 @@ export const imageConfig = {
         trusted: '/images/landing/trusted.png',
     },
     aboutus: {
-        aboutBanner: '/images/landing/about-banner-img.png',
+        aboutBanner: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/Resume-Banner.webp',
         aboutBannerAlt: 'about-banner-img.png',
         ourMissionImg: {
             image1: '/images/landing/mission-1.png',
