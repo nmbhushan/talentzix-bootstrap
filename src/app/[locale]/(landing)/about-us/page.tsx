@@ -99,10 +99,6 @@ const Aboutus = () => {
                     </div>
                 </div>
                 <ScrollNavigation sections={sections} />
-                <section className="mt-6">
-                    <h2 className="text-3xl font-semibold mb-6 text-center">  About Exalogic  </h2>
-                    <p>RealCube is a proprietary solution developed by Exalogic Consulting. With close to two decades of expertise in ERP consulting, IT product development and integration, we have grown to become a globally recognized IT consulting firm with presence in America, the Middle East, Europe, and Asia. Our close-knit team of business consultants, engineers and developers has uniquely empowered us to be at the forefront of the exciting new developments in digital technology that promises to revolutionize IT. Our pedigree includes conceptualizing, implementing, and managing the third wave turnkey solutions for some of the largest property management firms in the world.</p>
-                </section>
             </div>
         </>
     );

@@ -22,37 +22,84 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
+import { createAPIURLAndGetDataQryParams } from '@/lib/axios/apis';
+import axiosInstance from '@/lib/axios/axios';
+import endpoint from '@/lib/axios/endpoints';
 const RegisterAuthForm = () => {
-    const signupSchema = z.object({
-        Customer_type: z.string(),
-        first_name: z
-            .string({ required_error: 'First Name is required' })
-            .min(2, { message: "First Name must be atleast two characters" }),
-        last_name: z
-            .string({ required_error: 'Last Name is required' })
-            .min(2, { message: "Last Name must be atleast 2 characters" }),
-        email: z.string({ required_error: 'Email is required' }).email({ message: "Enter valid email" }),
-        password: z.string({ required_error: 'Password is required' }).min(2, { message: "Enter Password" }),
-        cpassword: z.string({ required_error: 'Confirm your password' }).min(2, { message: "Confirm Password" }),
-    });
 
-    const form = useForm<z.infer<typeof signupSchema>>({
-        resolver: zodResolver(signupSchema),
-        // defaultValues: {
-        //   email: "",
-        // },
-    });
+    const formSchema = z
+        .object({
+            first_name: z.string().min(2, {
+                message: "Name must be at least 2 characters.",
+            }),
+            last_name: z.string().min(2, {
+                message: "Name must be at least 2 characters.",
+            }),
+            email: z.string().email({
+                message: "Please enter a valid email address.",
+            }),
+            password: z.string().min(8, {
+                message: "Password must be at least 8 characters.",
+            }),
+            confirmPassword: z.string(),
+        })
+        .refine((data) => data.password === data.confirmPassword, {
+            message: "Passwords don't match",
+            path: ["confirmPassword"],
+        })
 
-    function Submit(values: z.infer<typeof signupSchema>) {
-        // Do something with the form values.
-        // ✅ This will be type-safe and validated.
-        console.log(values);
+    const form = useForm<z.infer<typeof formSchema>>({
+        resolver: zodResolver(formSchema),
+        defaultValues: {
+            first_name: "",
+            last_name: "",
+            email: "",
+            password: "",
+            confirmPassword: "",
+        },
+    })
+
+    function onSubmit(values: z.infer<typeof formSchema>) {
+        // console.log("🚀 ~ onSubmit ~ values:", values)
+        const payload = {
+            "email": values.email,
+            "lang": "en",
+            "fullName": values.first_name + " " + values.last_name,
+            "password": values.password,
+            "termAgreed": true,
+            "promos": false,
+            // "captcha": "string",
+            // "captchaToken": "string"
+        }
+
+        createAPIURLAndGetDataQryParams(
+            axiosInstance.post,
+            endpoint.userReg,
+            payload,
+            null,
+        ).then((response) => {
+            console.log("🚀 ~ ).then ~ response:", response)
+            // console.log("🚀 ~ ).then ~ response:", response)
+            if (response.status === 200) {
+                // setSuccess(true)
+                setTimeout(() => {
+                    // router.back();
+                }, 2000);
+            } else {
+                console.log('error', response);
+
+            }
+        }).catch((e) => {
+            console.log('error', e);
+        })
+
     }
+
 
     return (
         <Form {...form}>
             <form
-                onSubmit={form.handleSubmit(Submit)}
+                onSubmit={form.handleSubmit(onSubmit)}
                 className="space-y-5 text-left"
             >
                 {/* <FormField
@@ -114,8 +161,8 @@ const RegisterAuthForm = () => {
                     </div>
                 </div>
 
-                <div className="mt-4">
-                    <Label htmlFor="password" className="text-black">
+                {/* <div className="mt-4">
+                    <Label htmlFor="mob" className="text-black">
                         {" "}
                         Mobile No <span className="text-red-600">*</span>
                     </Label>
@@ -123,10 +170,9 @@ const RegisterAuthForm = () => {
                         placeholder="+91"
                         className="mt-2"
                     />
-                </div>
+                </div> */}
 
                 <div className="mt-4">
-                    
                     <FormField
                         control={form.control}
                         name="email"
@@ -144,7 +190,6 @@ const RegisterAuthForm = () => {
                     />
                 </div>
                 <div className="mt-4">
-                  
                     <FormField
                         control={form.control}
                         name="password"
@@ -154,7 +199,7 @@ const RegisterAuthForm = () => {
                                     Password
                                 </FormLabel>
                                 <FormControl>
-                                    <Input placeholder="Password" {...field} />
+                                    <Input type="password" placeholder="Password" {...field} />
                                 </FormControl>
                                 <FormMessage className="text-sm" />
                             </FormItem>
@@ -162,17 +207,16 @@ const RegisterAuthForm = () => {
                     />
                 </div>
                 <div className="mt-4">
-                    
                     <FormField
                         control={form.control}
-                        name="cpassword"
+                        name="confirmPassword"
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel className="text-black">
                                     Confirm Password
                                 </FormLabel>
                                 <FormControl>
-                                    <Input placeholder="Confirm Password" {...field} />
+                                    <Input type="password" placeholder="Confirm Password" {...field} />
                                 </FormControl>
                                 <FormMessage className="text-sm" />
                             </FormItem>

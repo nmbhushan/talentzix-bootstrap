@@ -131,6 +131,14 @@ const config: Config = {
                 'contact-banner': "url('/images/landing/contact-banner.png')",
                 'landing-banner': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/banner-bg.webp')",
                 'menu-style': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/activeness.webp')",
+                'vertical-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/vertical-bg.webp')",
+                'resume-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-bg.webp')",
+                'shape-white': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/shape-white.webp')",
+                'shape-grey': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/shape-grey.webp')",
+                'empower-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-bg.webp')",
+                'news-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/news-bg.webp')",
+                'cover-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/cover-bg.webp')",
+                'feedback-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/feedback-banner.webp')",
             },
             keyframes: {
                 'accordion-down': {

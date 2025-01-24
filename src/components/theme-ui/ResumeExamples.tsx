@@ -33,29 +33,31 @@ const ResumeExamples = () => {
   return (
     <div className="relative flex items-center justify-center px-4 pt-12">
       {/* Main Container */}
-      <div className="relative z-10 bg-gray-50 rounded-2xl shadow-lg p-6 md:p-8 max-w-5xl w-full">
+      <div className="container relative z-10 bg-[#F7F9FC] rounded-[20px] px-6 md:px-10 py-14">
         {/* Spiral Decoration Inside the Container */}
         <div className="absolute top-2 right-6 md:top-3 md:right-10">
           <Image
-            src={Spiral}
+            src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/spiral.webp"
             alt="Spiral Decoration"
-            width={80}
-            height={80}
+            width={95}
+            height={88}
             className="opacity-70"
           />
         </div>
 
-        <h1 className="text-center text-xl md:text-2xl font-bold text-gray-800 mb-6">
+        <h2 className="text-[24px] text-center mb-10 capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold mx-auto">
           Look At Resume Examples For Inspiration
-        </h1>
-        <div className="flex flex-wrap justify-center items-start gap-x-4 gap-y-6">
+        </h2>
+        <div className="flex flex-wrap justify-center items-start gap-x-2 gap-y-3">
           {categories.map((category, index) => (
             <div
               key={index}
-              className="flex items-center gap-2 px-3 py-2 md:px-4 md:py-3 rounded-full bg-gray-50 shadow-sm hover:shadow-md transition-shadow cursor-pointer"
+              className="flex items-center gap-1 px-3 py-2 md:px-4 md:py-3 rounded-full bg-white shadow-sm hover:shadow-md transition-shadow cursor-pointer"
             >
-              <category.Icon className="text-blue-500 w-5 h-5 md:w-6 md:h-6" />
-              <span className="text-xs md:text-sm font-normal text-gray-700">{category.title}</span>
+              <div className="text-[#1A91F0] bg-[#F1F2FF] rounded-[50%] flex items-center justify-center w-[35px] h-[35px]">
+                <category.Icon className="text-[#1A91F0] w-[19px] h-[19px]" />
+              </div>
+              <span className="text-[15px] text-[#17012C] rounded-[24px] font-normal">{category.title}</span>
             </div>
           ))}
         </div>

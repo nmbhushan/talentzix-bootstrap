@@ -3,12 +3,12 @@ import Privacy from '@/components/landing/privacy-policy/PrivacyPolicy';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Privacy Policy',
-    description: 'RealCube offer villas, apartments, and townhouses for residential purposes, we also have a commercial space for buying and rent at the prime location of the city.'
+    title: 'Cookies Policy - Talentzix',
+    description: 'Cookies Policy - Talentzix'
 };
 const breadcrum = [
     { href: "/", label: "Home" },  
-    { label: "Privacy Policy"},
+    { label: "Cookies Policy"},
 ]
 export default function PrivacyPolicy() {
     return (

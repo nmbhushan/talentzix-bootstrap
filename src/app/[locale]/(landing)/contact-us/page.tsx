@@ -9,8 +9,8 @@ import { Metadata } from "next";
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-    title: 'Contact Us - Get in touch to know more aboutRealcube services',
-    description: 'We would love to hear from you, drop us a call or fill out the contact form to get information related to any property listing on our website.'
+    title: 'Contact Us - Talentzix',
+    description: 'Contact Us - Talentzix'
 };
 const breadcrum = [
     { href: "/", label: "Home" },
@@ -18,45 +18,21 @@ const breadcrum = [
 ]
 const ContactUs = () => {
     const contactAddress = {
-        abuDhabi: {
-            address: siteConfig.address.abudhabi.address,
-            phone: siteConfig.address.abudhabi.phone,
-        },
-        london: {
-            address: siteConfig.address.abudhabi.address,
-            phone: siteConfig.address.abudhabi.phone,
-        },
-        dubai: {
-            address: siteConfig.address.abudhabi.address,
-            phone: siteConfig.address.abudhabi.phone,
+        usa: {
+            address: siteConfig.address.usa.address,
+            phone: siteConfig.address.usa.phone,
         },
         bengaluru: {
-            address: siteConfig.address.abudhabi.address,
-            phone: siteConfig.address.abudhabi.phone,
+            address: siteConfig.address.bengaluru.address,
+            phone: siteConfig.address.bengaluru.phone,
         },
     }
     const tabItems = [
         {
-            title: "Abu Dhabi",
+            title: "USA",
             content: (
                 <div>
-                    <ContactUsCard item={contactAddress.abuDhabi} />
-                </div>
-            ),
-        },
-        {
-            title: "London",
-            content: (
-                <div>
-                    <ContactUsCard item={contactAddress.london} />
-                </div>
-            ),
-        },
-        {
-            title: "Dubai",
-            content: (
-                <div>
-                    <ContactUsCard item={contactAddress.dubai} />
+                    <ContactUsCard item={contactAddress.usa} />
                 </div>
             ),
         },
