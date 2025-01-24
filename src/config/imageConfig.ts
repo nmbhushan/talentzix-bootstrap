@@ -39,7 +39,7 @@ export const imageConfig = {
 
 export const PropertyCardData = [
     {
-        propertyImg: "https://exalogic-store.s3.us-east-2.amazonaws.com/al-saqer/property-img.png",
+        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-1.webp",
         propertyTitle: "2 Bedroom Apartment For Sale in Vida Residence Downtown",
         propertyPlat: "0203",
         propertyResidency: "Vida Residence Downtown V1",
@@ -52,7 +52,7 @@ export const PropertyCardData = [
         propertyPrice: "9,500,000"
     },
     {
-        propertyImg: "https://exalogic-store.s3.us-east-2.amazonaws.com/al-saqer/property-img2.png",
+        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-2.webp",
         propertyTitle: "3 Bedroom Apartment For Sale in Vida Residence Downtown",
         propertyPlat: "0203",
         propertyResidency: "Vida Residence Downtown V1",
@@ -65,7 +65,33 @@ export const PropertyCardData = [
         propertyPrice: "12,500,000"
     },
     {
-        propertyImg: "https://exalogic-store.s3.us-east-2.amazonaws.com/al-saqer/property-img3.jpg",
+        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-3.webp",
+        propertyTitle: "2 Bedroom Apartment For Sale in Vida Residence Downtown",
+        propertyPlat: "0203",
+        propertyResidency: "Vida Residence Downtown V1",
+        propertyLocation: "Abu Dhabi",
+        propertyBed: "2",
+        propertyBath: "4",
+        propertySqft: "130",
+        propertyParking: "No",
+        propertyUrl: "",
+        propertyPrice: "9,500,000"
+    },
+    {
+        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-4.webp",
+        propertyTitle: "2 Bedroom Apartment For Sale in Vida Residence Downtown",
+        propertyPlat: "0203",
+        propertyResidency: "Vida Residence Downtown V1",
+        propertyLocation: "Abu Dhabi",
+        propertyBed: "2",
+        propertyBath: "4",
+        propertySqft: "130",
+        propertyParking: "No",
+        propertyUrl: "",
+        propertyPrice: "9,500,000"
+    },
+    {
+        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-5.webp",
         propertyTitle: "2 Bedroom Apartment For Sale in Vida Residence Downtown",
         propertyPlat: "0203",
         propertyResidency: "Vida Residence Downtown V1",

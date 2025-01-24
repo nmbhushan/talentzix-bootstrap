@@ -15,7 +15,7 @@ import {
   }
   
   const FAQList: FAQProps[] = [
-    {
+    { 
       question: "What is Talentzix, and how does it work?",
       answer: "Talentzix is an online platform designed to help users create professional resumes effortlessly. Simply choose a template, input your details, and generate a polished resume in minutes.",
       value: "item-1",

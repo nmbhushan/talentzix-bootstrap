@@ -44,7 +44,7 @@ const PropertiesListing = () => {
                     <div className="flex space-x-3 items-start">
                     </div>
                 </div>
-                <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
+                <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-5 gap-5 mb-8">
                     {PropertyCardData.map((item, index: any) => (
                         <div key={index} className="card">
                             <PropertiesCard item={item} />
