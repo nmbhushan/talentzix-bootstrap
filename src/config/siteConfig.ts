@@ -59,17 +59,9 @@ export const siteConfig = {
 
   },
   address: {
-    abudhabi: {
+    usa: {
       address: 'Level 35, PO Box 73801 ,Maqam Tower,Sowwah Square, Maryah Island.',
       phone: '+971 800 3570',
-    },
-    london: {
-      address: 'Kemp House, 160 City Road,EC1V 2NX, London, UK',
-      phone: '+44 20 3907 7737',
-    },
-    dubai: {
-      address: 'Level 14,PO Box 634321 Fortune Executive Towers Jumeirah Lakes Towers',
-      phone: '+971 391 3570',
     },
     bengaluru: {
       address: 'Level 7, Raheja Paramount.Residency road,Bengaluru, Karnataka 560025',

@@ -6,12 +6,12 @@ import Faq from '@/components/landing/faq/Faq';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'buy/rent residential and commercial properties',
-    description: 'RealCube offer villas, apartments, and townhouses for residential purposes, we also have a commercial space for buying and rent at the prime location of the city.'
+    title: 'FAQ - Talentzix',
+    description: 'FAQ - Talentzix'
 };
 const breadcrum = [
     { href: "/", label: "Home" },  
-    { label: "Terms and Conditions"},
+    { label: "FAQ"},
 ]
 export default function TermsCondition() {
     return (

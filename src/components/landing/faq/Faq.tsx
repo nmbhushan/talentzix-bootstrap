@@ -16,34 +16,56 @@ import {
   
   const FAQList: FAQProps[] = [
     {
-      question: "Is this template free?",
-      answer: "Yes. It is a free ChadcnUI template.",
+      question: "What is Talentzix, and how does it work?",
+      answer: "Talentzix is an online platform designed to help users create professional resumes effortlessly. Simply choose a template, input your details, and generate a polished resume in minutes.",
       value: "item-1",
     },
     {
-      question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+      question: "Is Talentzix free to use?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+        "Talentzix offers both free and premium plans. The free plan includes basic templates, while the premium plan provides access to advanced templates and additional customization features.",
       value: "item-2",
     },
     {
       question:
-        "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+        "What file formats can I download my resume in?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+        "Resumes can be downloaded in commonly used formats such as PDF, DOCX, and TXT, ensuring compatibility with most job application systems.",
       value: "item-3",
     },
     {
-      question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-      answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      question: "Can I customize my resume templates?",
+      answer: "Yes, all templates are fully customizable. You can adjust fonts, colors, layout, and sections to suit your preferences and needs.",
       value: "item-4",
     },
     {
       question:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+        "Does Talentzix offer guidance on what to include in a resume?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+        "Absolutely! Talentzix provides pre-written content suggestions for various industries and roles, helping you craft a professional resume even if you're unsure where to start.",
       value: "item-5",
+    },
+
+    {
+      question:
+        "Is my personal information secure on Talentzix?",
+      answer:
+        "Yes, Talentzix prioritizes your privacy and data security. Your personal information is stored securely and never shared with third parties.",
+      value: "item-6",
+    },
+    {
+      question:
+        "Can I create resumes for different job applications?",
+      answer:
+        "Yes, you can create multiple resumes for different roles or industries. Save and manage them conveniently within your account.",
+      value: "item-7",
+    },
+    {
+      question:
+        "Does Talentzix offer additional career tools or services?",
+      answer:
+        "Along with resume building, Talentzix offers cover letter templates, interview tips, and career guidance resources to help you succeed in your job search.",
+      value: "item-8",
     },
   ];
 

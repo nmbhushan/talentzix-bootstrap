@@ -25,8 +25,7 @@ import { Breadcrumbs } from "@/components/landing/common/Breadcrumb";
 
 const breadcrum = [
     { href: "/", label: "Home" },
-    { href: "/", label: "Buy" },
-    { label: "Properties" },
+    { label: "Blogs" },
 ]
 export const metadata: Metadata = {
     title: 'buy/rent residential and commercial properties',
@@ -41,8 +40,7 @@ const PropertiesListing = () => {
                 <PropertyFilter />
                 <div className="flex justify-between space-y-3 mt-3">
                     <div>
-                        <h3 className="text-2xl font-semibold mb-2">Properties for Lease in Dubai</h3>
-                        <p>1,705 properties are available on Realcube</p>
+                        <h3 className="text-2xl font-semibold mb-2">Blogs</h3>
                     </div>
                     <div className="flex space-x-3 items-start">
                         <Select>

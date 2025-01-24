@@ -10,8 +10,8 @@ import PropertyLocation from "@/components/landing/properties/details/property-l
 
 const breadcrum = [
     { href: "/", label: "Home" },
-    { href: "/", label: "Properties" },
-    { label: "Al warsan village block" },
+    { href: "/", label: "Blogs" },
+    { label: "Blog Details" },
   ]
   
   const tab = [{
