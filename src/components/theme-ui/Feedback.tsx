@@ -51,41 +51,45 @@ const Feedback: React.FC = () => {
     }
   };
   return (
-    <div className="py-12 relative bg-feedback-bg bg-cover bg-no-repeat">
-        <div className="container flex flex-col md:flex-row items-center justify-around px-6">
-          <Image
-            src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/feedback-girl.webp"
-            width="409"
-            height="451"
-            alt="Choose Us"
-            className="hidden md:block w-24 md:w-auto h-80 mt-8 md:mt-0"
-          />
-          <div className="relative">
-          <div className="relative">
-            <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
-                Testimonials
-            </p>
-            <h2 className="text-[24px] mb-4 capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold">people say about us</h2>
+    <div className="py-12 relative bg-feedback-bg bg-cover bg-no-repeat overflow-x-hidden">
+        <div className="container overflow-x-hidden max-w-[400px] md:max-w-[100%] grid-cols-3 flex flex-col md:flex-row items-center justify-around px-6">
+          <div className="grid-cols-3 md:grid-cols-1">
+              <Image
+                src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/feedback-girl.webp"
+                width="409"
+                height="451"
+                alt="Choose Us"
+                className="hidden md:block w-24 md:w-auto h-80 mt-8 md:mt-0"
+              />
+          </div>
+          <div className="grid-cols-3 md:grid-cols-2">
+              <div className="relative">
+              <div className="relative text-center md:text-start">
+                <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
+                    Testimonials
+                </p>
+                <h2 className="text-[24px] mb-4 capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold mx-auto md:mx-0">people say about us</h2>
 
-            {/* Arrows Positioned on the Right */}
-          <div className="absolute top-1/2 right-0 transform -translate-y-1/2 flex space-x-4">
-            <button
-              className="flex items-center justify-center"
-              onClick={() => handleScroll("left")}
-            >
-              <Image src={LeftArrow} alt="Left Arrow" width={44} height={44} />
-            </button>
-            <button
-              className="flex items-center justify-center"
-              onClick={() => handleScroll("right")}
-            >
-              <Image src={RightArrow} alt="Right Arrow" width={44} height={44} />
-            </button>
+                {/* Arrows Positioned on the Right */}
+              <div className="relative md:absolute top-1/2 right-0 transform -translate-y-1/2 flex space-x-4 flex justify-center mt-0 pt-4">
+                <button
+                  className="flex items-center justify-center"
+                  onClick={() => handleScroll("left")}
+                >
+                  <Image src={LeftArrow} alt="Left Arrow" width={44} height={44} />
+                </button>
+                <button
+                  className="flex items-center justify-center"
+                  onClick={() => handleScroll("right")}
+                >
+                  <Image src={RightArrow} alt="Right Arrow" width={44} height={44} />
+                </button>
+              </div>
           </div>
       </div>
 
         {/* Carousel */}
-      <div className="relative max-w-[600px] empower mt-8">
+      <div className="relative sm:max-w-[400px] md:max-w-[600px] empower mt-1 md:mt-8">
         <div
           ref={scrollRef}
           className="flex gap-3 overflow-hidden scrollbar-hide scroll-smooth"

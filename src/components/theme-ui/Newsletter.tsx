@@ -13,7 +13,7 @@ export const Newsletter = () => {
     <section id="newsletter" className="flex items-center bg-news-bg bg-no-repeat bg-cover mx-auto absolute top-[-100px] left-0 right-0 min-h-[162px] max-w-[832px] rounded-[12px]">
       <div className="container py-3">
         <div className="grid md:grid-cols-12 relative">
-            <div className="col-span-12 md:col-span-6  overflow-hidden flex items-center min-h-[162px]">
+            <div className="col-span-12 md:col-span-6  hidden overflow-hidden md:flex items-center min-h-[162px]">
                 <Image
                     src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/news-img.webp"
                     alt="Spiral Decoration"
@@ -22,7 +22,7 @@ export const Newsletter = () => {
                     className="absolute bottom-[-11px]"
                   />
             </div>
-            <div className="col-span-12 md:col-span-6 flex items-center min-h-[162px]">
+            <div className="col-span-12 md:col-span-6 flex items-center justify-center md:justify-start min-h-[162px]">
                 <div>
                     <h3 className="text-white text-[22px] mb-3 font-bold">
                       Subscribe To Our Newsletter!

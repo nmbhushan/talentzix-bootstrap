@@ -12,6 +12,7 @@ export const About = () => {
             alt="resume"
             width="410"
             height="438"
+            className="object-contain"
           />
           <div className="flex flex-col">
             <div className="pb-0">

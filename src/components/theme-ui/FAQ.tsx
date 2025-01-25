@@ -86,7 +86,7 @@ export const FAQ = () => {
               value={value}
               className="border-b border-[#000000]"
             >
-              <AccordionTrigger className="flex items-center justify-between text-[21px] font-medium text-[#000000] py-4">
+              <AccordionTrigger className="text-start !leading-[25px] flex items-center justify-between text-[18px] md:text-[21px] font-medium text-[#000000] py-4">
                 {question}
                 
               </AccordionTrigger>
