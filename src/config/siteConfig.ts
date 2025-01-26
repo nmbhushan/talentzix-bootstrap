@@ -9,28 +9,22 @@ export const siteConfig = {
   logoWidth: 131,
   logoHeight: 34,
   links: {
-    linkedin: 'https://www.linkedin.com/company/realcubecommunity/',
+    linkedin: 'https://www.linkedin.com/',
     website:
       'https://resumegenie.s3.ap-south-1.amazonaws.com/logo.png'
   },
   contact: {
     email: 'support@talentzix.ai',
-    phone: ''
+    phone: '+91 95607 40175'
   },
   //site header links
   header: {
     headerLinks: [
       { title: 'Home', href: '/' },
-      { title: 'Properties', href: '' },
-      { title: 'Area Guide', href: '#' },
-      { title: 'Marketing', href: '#' }
-    ],
-    buylinks: [
-      { title: 'Buy', href: '#' },
-      { title: 'Rent', href: '#' }
-    ],
-    quickPay: [
-      { title: 'Quick Pay', href: '#' },
+      { title: 'Resume Templates', href: '/resume-templates' },
+      { title: 'CV Templates', href: '/cv-templates' },
+      { title: 'Blogs', href: '/blogs' },
+      { title: 'Faqs', href: '/faqs' }
     ]
   },
   //site footer links
@@ -39,10 +33,10 @@ export const siteConfig = {
       title: 'Quick Links',
       links: [
         { title: 'About Us', href: '/about-us' },
-        { title: 'Blog', href: '/blog' },
-        { title: 'Contact Us', href: '/contact-us' },
-        { title: 'Privacy & Policy', href: '/privacy-policy' },
-        { title: 'Terms & Conditions', href: '/terms-and-conditions' }
+        { title: 'Resume Templates', href: '/resume-templates' },
+        { title: 'CV Templates', href: '/cv-templates' },
+        { title: 'Blogs', href: '/blogs' },
+        { title: 'Faqs', href: '/faqs' }
       ],
     },
     subscribe: {
@@ -59,13 +53,9 @@ export const siteConfig = {
 
   },
   address: {
-    usa: {
-      address: 'Level 35, PO Box 73801 ,Maqam Tower,Sowwah Square, Maryah Island.',
-      phone: '+971 800 3570',
-    },
     bengaluru: {
-      address: 'Level 7, Raheja Paramount.Residency road,Bengaluru, Karnataka 560025',
-      phone: '+91 804 101 0727',
+      address: '4th Floor, SAKET CALLIPOLIS, 403, Doddakannelli, Sarjapur road, Bengaluru, Karnataka 560035',
+      phone: '+91 95607 40175',
     }
   },
   needHelp: [

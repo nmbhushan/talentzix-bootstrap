@@ -13,7 +13,7 @@ export function WelcomeCardCommon({ content }: { content: string }) {
         <Card className="relative overflow-visible rounded-lg bg-gradient-to-br from-[#09090B] py-1 to-[#5C5C71] text-white">
             <CardHeader className="relative z-10">
                 <CardTitle className="text-xl font-light md:text-xl">
-                    Welcome, <span className="font-bold">RC User</span>
+                    Welcome, <span className="font-bold"> Nagmani </span>
                 </CardTitle>
             </CardHeader>
             <CardContent>

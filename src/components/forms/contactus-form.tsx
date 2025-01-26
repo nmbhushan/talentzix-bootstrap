@@ -51,34 +51,12 @@ const ContactUsForm = () => {
     }
 
     return (
-        <div className='py-6'>
+        <div className='py-20'>
             <Form {...form}>
                 <form
                     onSubmit={form.handleSubmit(Submit)}
                     className="space-y-5 text-left"
                 >
-                    <FormField
-                        control={form.control}
-                        name="Customer_type"
-                        render={({ field }) => (
-                            <FormItem>
-                                <FormLabel className='text-black'>Customer Type <LabelError /></FormLabel>
-                                <Select onValueChange={field.onChange} defaultValue={field.value}>
-                                    <FormControl>
-                                        <SelectTrigger>
-                                            <SelectValue placeholder="Select Customer type" />
-                                        </SelectTrigger>
-                                    </FormControl>
-                                    <SelectContent>
-                                        <SelectItem value="light">Individual</SelectItem>
-                                        <SelectItem value="dark">Organization</SelectItem>
-                                    </SelectContent>
-                                </Select>
-                                <FormMessage />
-                            </FormItem>
-                        )}
-                    />
-
                     <div className=" flex   justify-center gap-6  items-start">
                         <div className="flex flex-col w-full">
                             <FormField

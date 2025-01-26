@@ -148,8 +148,3 @@ export default function ActionCardsScrollable({ title, items = actionItems }: { 
         </section>
     )
 }
-
-//usages
-{/* <div className="w-full w-10/12">
-    <ActionCardsScrollable title="Dashboard" items={actionItems} />
-</div> */}

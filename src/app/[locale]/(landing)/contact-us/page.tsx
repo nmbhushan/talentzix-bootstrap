@@ -18,24 +18,12 @@ const breadcrum = [
 ]
 const ContactUs = () => {
     const contactAddress = {
-        usa: {
-            address: siteConfig.address.usa.address,
-            phone: siteConfig.address.usa.phone,
-        },
         bengaluru: {
             address: siteConfig.address.bengaluru.address,
             phone: siteConfig.address.bengaluru.phone,
         },
     }
     const tabItems = [
-        {
-            title: "USA",
-            content: (
-                <div>
-                    <ContactUsCard item={contactAddress.usa} />
-                </div>
-            ),
-        },
         {
             title: "Bengaluru",
             content: (
@@ -54,7 +42,7 @@ const ContactUs = () => {
                             <HeadingOne title='Get in touch with us' />
                             <TabsLayout tabs={tabItems} layout="layout1" theme="dark" align='center' />
                         </div>
-                        <div className="col-span-12 md:col-span-6">
+                        <div className="col-span-12 md:col-span-6 py-10">
                             <CustomCard variant='with-space'>
                                 <ContactUsForm />
                             </CustomCard>

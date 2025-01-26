@@ -77,22 +77,7 @@ const SignupToggle = () => {
                         </FormItem>
                     )}
                 />
-                {/* <Label
-        htmlFor="password"
-        className="text-black mt-[20px]"
-      >
-        {" "}
-        Customer Type <span className="text-red-600">*</span>
-      </Label>
-      <Select>
-        <SelectTrigger className="w-[100%] h-[50px] mt-2">
-          <SelectValue placeholder="Please Select" />
-        </SelectTrigger>
-        <SelectContent>
-          <SelectItem value="light">Individual</SelectItem>
-          <SelectItem value="dark">Organization</SelectItem>
-        </SelectContent>
-      </Select> */}
+               
 
                 <div className=" flex items-center justify-center gap-8 mt-4">
                     <div className="flex flex-col">

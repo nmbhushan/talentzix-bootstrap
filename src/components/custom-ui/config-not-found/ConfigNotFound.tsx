@@ -14,8 +14,12 @@ export default function ConfigNotFound() {
         <div className="relative z-20 h-full flex justify-center items-center">
             <div className='flex flex-col items-center '>
                 {/* <Image src={'/images/404.svg'} alt="404 image" width={386} height={276} className="mb-4" /> */}
-                <h1>Oops, config not found!</h1>
-                <p className="my-8">Please contact support.</p>
+                <h1>
+                    Oops, config not found!
+                </h1>
+                <p className="my-8">
+                    Please contact support.
+                </p>
             </div>
         </div>
     );
