@@ -72,7 +72,7 @@ export const Sponsors = () => {
       className="container pt-10"
     >
       <div className="mt-10 relative max-w-[1000px] mx-auto">
-          <h2 className="text-center text-[17px] font-semibold absolute text-[#17012C] left-0 right-0 top-[-12px] inline-table bg-white mx-auto px-3">
+          <h2 className="text-center text-[24px] font-semibold absolute text-[#17012C] left-0 right-0 top-[-12px] inline-table bg-white mx-auto px-3">
             Our Career Partner
           </h2>
 

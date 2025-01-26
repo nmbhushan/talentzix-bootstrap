@@ -54,10 +54,10 @@ const ResumeExamples = () => {
               key={index}
               className="flex items-center gap-1 px-3 py-2 md:px-4 md:py-3 rounded-full bg-white shadow-sm hover:shadow-md transition-shadow cursor-pointer"
             >
-              <div className="text-[#1A91F0] bg-[#F1F2FF] rounded-[50%] flex items-center justify-center w-[35px] h-[35px]">
-                <category.Icon className="text-[#1A91F0] w-[19px] h-[19px]" />
+              <div className="text-[#1A91F0] bg-[#F1F2FF] rounded-[50%] flex items-center justify-center w-[25px] h-[25px] md:w-[35px] md:h-[35px]">
+                <category.Icon className="text-[#1A91F0] w-[15px] h-[15px] md:w-[19px] md:h-[19px]" />
               </div>
-              <span className="text-[15px] text-[#17012C] rounded-[24px] font-normal">{category.title}</span>
+              <span className="text-[12px] md:text-[15px] text-[#17012C] rounded-[24px] font-normal">{category.title}</span>
             </div>
           ))}
         </div>

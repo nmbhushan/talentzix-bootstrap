@@ -22,6 +22,7 @@ export const HeroCards = () => {
         alt="resume"
         width="611"
         height="502"
+        className="object-contain h-auto md:h-[502px]"
       />
     </div>
   );

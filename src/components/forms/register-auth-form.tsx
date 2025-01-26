@@ -100,7 +100,7 @@ const RegisterAuthForm = () => {
         <Form {...form}>
             <form
                 onSubmit={form.handleSubmit(onSubmit)}
-                className="space-y-5 text-left"
+                className="space-y-2 md:space-y-4 max-w-[410px] text-left mx-auto"
             >
                 {/* <FormField
                     control={form.control}
@@ -131,11 +131,11 @@ const RegisterAuthForm = () => {
                             name="first_name"
                             render={({ field }) => (
                                 <FormItem>
-                                    <FormLabel className="text-black">
-                                        First Name
-                                    </FormLabel>
+{/*                                     <FormLabel className="text-black"> */}
+{/*                                         First Name */}
+{/*                                     </FormLabel> */}
                                     <FormControl>
-                                        <Input placeholder="First Name" {...field} />
+                                        <Input className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0" placeholder="First Name" {...field} />
                                     </FormControl>
                                     <FormMessage className="text-sm" />
                                 </FormItem>
@@ -148,11 +148,11 @@ const RegisterAuthForm = () => {
                             name="last_name"
                             render={({ field }) => (
                                 <FormItem>
-                                    <FormLabel className="text-black">
-                                        Last Name
-                                    </FormLabel>
+{/*                                     <FormLabel className="text-black"> */}
+{/*                                         Last Name */}
+{/*                                     </FormLabel> */}
                                     <FormControl>
-                                        <Input placeholder="Last Name" {...field} />
+                                        <Input className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0" placeholder="Last Name" {...field} />
                                     </FormControl>
                                     <FormMessage className="text-sm" />
                                 </FormItem>
@@ -178,11 +178,11 @@ const RegisterAuthForm = () => {
                         name="email"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel className="text-black">
-                                    Email ID
-                                </FormLabel>
+{/*                                 <FormLabel className="text-black"> */}
+{/*                                     Email ID */}
+{/*                                 </FormLabel> */}
                                 <FormControl>
-                                    <Input placeholder="Email ID" {...field} />
+                                    <Input className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0" placeholder="Email ID" {...field} />
                                 </FormControl>
                                 <FormMessage className="text-sm" />
                             </FormItem>
@@ -195,11 +195,11 @@ const RegisterAuthForm = () => {
                         name="password"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel className="text-black">
-                                    Password
-                                </FormLabel>
+{/*                                 <FormLabel className="text-black"> */}
+{/*                                     Password */}
+{/*                                 </FormLabel> */}
                                 <FormControl>
-                                    <Input type="password" placeholder="Password" {...field} />
+                                    <Input className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0" type="password" placeholder="Password" {...field} />
                                 </FormControl>
                                 <FormMessage className="text-sm" />
                             </FormItem>
@@ -212,11 +212,11 @@ const RegisterAuthForm = () => {
                         name="confirmPassword"
                         render={({ field }) => (
                             <FormItem>
-                                <FormLabel className="text-black">
-                                    Confirm Password
-                                </FormLabel>
+{/*                                 <FormLabel className="text-black"> */}
+{/*                                     Confirm Password */}
+{/*                                 </FormLabel> */}
                                 <FormControl>
-                                    <Input type="password" placeholder="Confirm Password" {...field} />
+                                    <Input className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0" type="password" placeholder="Confirm Password" {...field} />
                                 </FormControl>
                                 <FormMessage className="text-sm" />
                             </FormItem>
@@ -224,7 +224,7 @@ const RegisterAuthForm = () => {
                     />
                 </div>
                 <Button
-                    className="text-center w-[100%] mt-3"
+                    className="h-[52px] rounded-[8px] bg-[#6144A5] font-medium text-[20px] text-white text-center w-[100%] mt-3"
                     type="submit"
                 >
                     Sign Up

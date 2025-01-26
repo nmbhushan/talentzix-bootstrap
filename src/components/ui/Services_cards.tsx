@@ -55,7 +55,7 @@ const Services: React.FC = () => {
   };
 
   return (
-    <div className="bg-white py-12">
+    <div className="container bg-white py-12">
       {/* Section Header */}
       <div className="max-w-[1200px] mx-auto relative">
         <h3 className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
@@ -66,7 +66,7 @@ const Services: React.FC = () => {
             Empowering you to achieve your career goals
           </h2>
           {/* Arrows Positioned on the Right */}
-          <div className="absolute top-1/2 right-0 transform -translate-y-1/2 flex space-x-4">
+          <div className="absolute top-1/2 right-0 transform translate-y-[20px] md:-translate-y-1/2 flex space-x-4">
             <button
               className="flex items-center justify-center"
               onClick={() => handleScroll("left")}

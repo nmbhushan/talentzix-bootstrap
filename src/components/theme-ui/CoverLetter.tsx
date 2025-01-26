@@ -41,8 +41,8 @@ const letter: Letter[] = [
 
 const CoverLetter = () => {
   return (
-    <div className="container py-12">
-        <div className="flex flex-col md:flex-row items-center px-6 bg-white">
+    <div className="container pt-12 md:py-12">
+        <div className="flex flex-col md:flex-row items-center px-0 md:px-6 bg-white">
           {/* Left Content */}
           <div className="max-w-lg">
             <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
@@ -51,7 +51,7 @@ const CoverLetter = () => {
             <h2 className="text-[24px] mb-4 capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold">Easily create a job-ready resume and cover letter to get hired faster.</h2>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-around px-6 pt-4 bg-white">
+        <div className="flex gap-x-4 flex-col md:flex-row items-center justify-around px-0 md:px-6 pt-4 bg-white">
           <Image
               src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/letter.webp"
               width="330"
@@ -63,8 +63,8 @@ const CoverLetter = () => {
             {letter.map((letter, index) => (
                 <div className="flex items-center p-4 max-w-[611px] mb-3 mx-auto bg-[#F6F3FE] rounded-[14px]" key={index}>
                     <div className="grid grid-cols-12 gap-6">
-                        <div className="md:col-span-4">
-                            <div className="bg-[#EEE8FD] rounded-[14px] flex items-center justify-center h-full">
+                        <div className="col-span-12 md:col-span-4">
+                            <div className="bg-[#EEE8FD] rounded-[14px] flex items-center justify-center h-full py-3 md:py-0">
                                 <Image
                                   src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-4.webp"
                                   width="28"
@@ -74,7 +74,7 @@ const CoverLetter = () => {
                                 />
                             </div>
                         </div>
-                        <div className="md:col-span-8">
+                        <div className="col-span-12 md:col-span-8">
                             <h6 className="text-[18px] text-[#17012C] font-bold mb-2">Easily edit online</h6>
                             <p className="text-[15px] text-[#504E4E]">Creating the perfectly formatted, custom tailored resume has never been easier.</p>
                         </div>
