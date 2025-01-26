@@ -17,6 +17,7 @@ body {
 .cover-scroll::-webkit-scrollbar-track{background: #F1F1F1;}
 .cover-scroll::-webkit-scrollbar-thumb{background: #000000;}
 .cover-scroll::-webkit-scrollbar-thumb:hover{background: #555;}
+.custom-breadcrum li, .custom-breadcrum li span, .custom-breadcrum a:hover{color: #FFFFFF;}
 
 @layer base {
     :root {

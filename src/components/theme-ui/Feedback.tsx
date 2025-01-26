@@ -97,7 +97,7 @@ const Feedback: React.FC = () => {
           {feedbackData.map((feedback, index) => (
             <Card
               key={index}
-              className="empower-card min-w-[192px] max-w-[192px] h-[192px] flex-shrink-0 rounded-[21px] bg-[#FFFFFF] transition-all duration-300"
+              className="empower-card md:min-w-[192px] max-w-[192px] h-[192px] flex-shrink-0 rounded-[21px] bg-[#FFFFFF] transition-all duration-300"
             >
               <CardHeader className="p-4 bg-empower-bg bg-contain bg-right bg-no-repeat">
                 <CardTitle className="flex items-center justify-between font-bold text-[#635AD9]">

@@ -1,59 +1,40 @@
+'use client';
+import { Cta } from "@/components/theme-ui/Cta";
+import { FAQ } from "@/components/theme-ui/FAQ";
+import { Features } from "@/components/theme-ui/Features";
+import { Footer } from "@/components/theme-ui/Footer";
+import { Hero } from "@/components/theme-ui/Hero";
+import { Navbar } from "@/components/theme-ui/Navbar";
+import { Pricing } from "@/components/theme-ui/Pricing";
+import { ScrollToTop } from "@/components/theme-ui/ScrollToTop";
+import { Sponsors } from "@/components/theme-ui/Sponsors";
+import { Team } from "@/components/theme-ui/Team";
+import { Testimonials } from "@/components/theme-ui/Testimonials";
+import Feedback from "@/components/theme-ui/Feedback";
+import TemplateTabs from "@/components/theme-ui/TemplateTabs/TemplateTabs";
 import { BreadcrumbResponsive } from "@/components/landing/common/custom-ui/Breadcrumb";
-import HeadingOne from "@/components/landing/common/custom-ui/HeadingOne";
-import { Button } from "@/components/ui/button"
-import { FaList, FaMapMarkedAlt } from "react-icons/fa";
-import { Metadata } from 'next';
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-} from "@/components/ui/select"
-import { FaBuilding } from "react-icons/fa";
-import { IoGrid } from "react-icons/io5";
-import PropertiesCard from "@/components/landing/common/custom-ui/cards/card-layouts/PropertiesCard";
-import {
-    Tooltip,
-    TooltipContent,
-    TooltipProvider,
-    TooltipTrigger
-} from '@/components/ui/tooltip'
-import { PropertyCardData } from "@/config/imageConfig";
 import { Breadcrumbs } from "@/components/landing/common/Breadcrumb";
 
 const breadcrum = [
     { href: "/", label: "Home" },
     { label: "Resume Templates" },
 ]
-export const metadata: Metadata = {
-    title: 'Resume Templates - Talentzix ',
-    description: 'Resume Templates - Talentzix'
-};
 
-const PropertiesListing = () => {
+export default function ResumeTemplates() {
     return (
-        <>
-            <div className="container">
+      <>
+        <div className="bg-[#4B3C59] pb-16 mb-7">
+            <div className="custom-breadcrum container pt-5 px-3">
                 <Breadcrumbs breadcrum={breadcrum} />
-                
-                <div className="flex justify-between space-y-3 mt-3">
-                    <div>
-                        <h3 className="text-2xl font-semibold mb-2">Resume Templates</h3>
-                    </div>
-                    <div className="flex space-x-3 items-start">
-                    </div>
-                </div>
-                <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-5 gap-5 mb-8">
-                    {PropertyCardData.map((item, index: any) => (
-                        <div key={index} className="card">
-                            <PropertiesCard item={item} />
-                        </div>
-                    ))}
-                </div>
             </div>
-        </>
+            <div className="max-w-[400px] mx-auto text-center space-y-5 pt-14 px-3">
+                <h1 className="text-[24px] md:text-[35px] font-semibold text-[#FFFFFF]">Resume Templates</h1>
+                <p className="text-[12px] font-medium text-[#FFFFFF]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+        </div>
+        <TemplateTabs/>
+        <Feedback/>
+        <FAQ />
+      </>
     );
 }
-
-export default PropertiesListing;
