@@ -18,6 +18,7 @@ body {
 .cover-scroll::-webkit-scrollbar-thumb{background: #000000;}
 .cover-scroll::-webkit-scrollbar-thumb:hover{background: #555;}
 .custom-breadcrum li, .custom-breadcrum li span, .custom-breadcrum a:hover{color: #FFFFFF;}
+.verify-account .exclude-div{display: none;}
 
 @layer base {
     :root {

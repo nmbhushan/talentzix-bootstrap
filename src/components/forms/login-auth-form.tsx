@@ -63,7 +63,7 @@ const LoginAuthForm = () => {
             <Form {...form}>
                 <form
                     onSubmit={form.handleSubmit(onSubmit)}
-                    className="space-y-2 md:space-y-4 max-w-[410px] text-left"
+                    className="space-y-2 md:space-y-4 max-w-[410px] text-left mx-auto w-full"
                 >
                     <FormField
                         control={form.control}

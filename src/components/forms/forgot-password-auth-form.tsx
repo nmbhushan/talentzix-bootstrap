@@ -63,7 +63,7 @@ const ForgotPasswordAuthForm = () => {
             <Form {...form}>
                 <form
                     onSubmit={form.handleSubmit(onSubmit)}
-                    className="space-y-4 text-left"
+                    className="space-y-2 md:space-y-4 max-w-[410px] text-left mx-auto w-full"
                 >
                     <FormField
                         control={form.control}
@@ -76,13 +76,14 @@ const ForgotPasswordAuthForm = () => {
                                         placeholder="Email"
                                         {...field}
                                         value={field.value ?? ""}
+                                        className="h-[52px] bg-[#F2F2F2] rounded-[8px] text-[14px] text-[#1C1C1C] border-0"
                                     />
                                 </FormControl>
                                 <FormMessage />
                             </FormItem>
                         )}
                     /> 
-                    <Button type="submit" className="text-center w-[100%] mt-3">
+                    <Button type="submit" className="h-[52px] rounded-[8px] bg-[#6144A5] font-medium text-[20px] text-white text-center w-[100%] mt-3">
                        Send Email
                     </Button>
                 </form>

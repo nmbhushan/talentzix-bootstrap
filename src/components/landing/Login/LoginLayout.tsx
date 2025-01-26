@@ -34,7 +34,7 @@ const LoginLayout = ({
                         height="768"
                         src="https://resumegenie.s3.ap-south-1.amazonaws.com/login/login-banner.webp"
                         alt="Login Banner"
-                        className="object-cover h-full dark:invert dark:brightness-0 dark:saturate-0"
+                        className="w-full object-cover h-full dark:invert dark:brightness-0 dark:saturate-0"
                     />
                     <div className="z-20 absolute bottom-[50px] px-5 pb-5 text-center left-0 right-0">
                         <blockquote className="space-y-2">
@@ -45,9 +45,9 @@ const LoginLayout = ({
                 </div>
             </div>
             <div className="h-full bg-background lg:p-8">
-                <div className={`mx-auto flex w-full h-full flex-col justify-center space-y-6 ${size === 'lg' ? 'sm:w-md' : 'sm:w-[400px]'}  p-8 lg:p-0`}>
+                <div className={`mx-auto flex w-full h-full flex-col justify-center space-y-6 ${size === 'lg' ? 'sm:w-[400px]' : 'sm:w-[400px]'}  p-8 lg:p-0`}>
                     <div className="flex flex-col space-y-2 md:pb-0">
-                        <div className="flex flex-col space-y-1">
+                        <div className="flex flex-col space-y-1 max-w-[410px] mx-auto w-full">
                             <Link href={"/"} className="flex items-center justify-center mb-5 pb-4">
                                 <Image
                                     width="167"
@@ -62,7 +62,7 @@ const LoginLayout = ({
                             
                             
 
-                            <div className="flex items-center justify-between space-x-3 text-center !mt-4">
+                            <div className="flex items-center justify-between space-x-3 text-center !mt-4 exclude-div">
                                 
                                 <Link href={'www.google.com'} className="text-[#E94235] hover:text-[#FFFFFF] w-full flex items-center justify-center border border-[#E94235] hover:bg-[#E94235] rounded-[7px] px-3 py-3">
                                     <span className="hidden sm:block"> Sign In With Google </span>
@@ -71,7 +71,7 @@ const LoginLayout = ({
                                 
                             </div>
 
-                            <p className="text-[12px] text-[#555555] text-center !mt-4">or</p>
+                            <p className="text-[12px] text-[#555555] text-center !mt-4 exclude-div">or</p>
 
                         </div>
                     </div>
