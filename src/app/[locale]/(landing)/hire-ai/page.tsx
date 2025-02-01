@@ -24,6 +24,7 @@ import ChooseUs from "@/components/theme-ui/ChooseUs";
 import Test from "@/components/theme-ui/Test";
 import Blogs from "@/components/theme-ui/Blogs";
 import Hireworks from "@/components/theme-ui/Hireworks";
+import AiRecruitment from "@/components/theme-ui/AiRecruitment";
 
 export default function HomePage() {
     return (
@@ -34,6 +35,7 @@ export default function HomePage() {
 {/*         <About /> */}
 {/*         <ResumeCarousel /> */}
 {/*         <ResumeExamples /> */}
+        <AiRecruitment/>
         <Hireworks/>
         <AgentControlCenter/>
         <Blogs />

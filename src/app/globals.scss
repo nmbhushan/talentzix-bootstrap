@@ -19,6 +19,8 @@ body {
 .cover-scroll::-webkit-scrollbar-thumb:hover{background: #555;}
 .custom-breadcrum li, .custom-breadcrum li span, .custom-breadcrum a:hover{color: #FFFFFF;}
 .verify-account .exclude-div{display: none;}
+.ai-team .ai-item:nth-child(3) > div {background-color: #635AD9;}
+.ai-team .ai-item:nth-child(3) h2, .ai-team .ai-item:nth-child(3) h5, .ai-team .ai-item:nth-child(3) p, .ai-team .ai-item:nth-child(3) li {color: #FFFFFF;}
 
 @layer base {
     :root {
