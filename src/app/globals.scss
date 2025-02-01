@@ -21,7 +21,7 @@ body {
 .verify-account .exclude-div{display: none;}
 .ai-team .ai-item:nth-child(3) > div {background-color: #635AD9;}
 .ai-team .ai-item:nth-child(3) h2, .ai-team .ai-item:nth-child(3) h5, .ai-team .ai-item:nth-child(3) p, .ai-team .ai-item:nth-child(3) li {color: #FFFFFF;}
-
+.ai-team .ai-item:nth-child(3) > div {background-image:url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-bg.webp');background-size:150px;background-position:top right;background-repeat: no-repeat;}
 @layer base {
     :root {
         /* Base Colors */
