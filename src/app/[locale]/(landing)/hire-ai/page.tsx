@@ -5,7 +5,7 @@ import { Cta } from "@/components/theme-ui/Cta";
 import { FAQ } from "@/components/theme-ui/FAQ";
 import { Features } from "@/components/theme-ui/Features";
 import { Footer } from "@/components/theme-ui/Footer";
-import { Hero } from "@/components/theme-ui/HeroHire";
+import { HeroHire } from "@/components/theme-ui/HeroHire";
 import { Navbar } from "@/components/theme-ui/Navbar";
 import { Pricing } from "@/components/theme-ui/Pricing";
 import { ScrollToTop } from "@/components/theme-ui/ScrollToTop";
@@ -16,6 +16,7 @@ import { Testimonials } from "@/components/theme-ui/Testimonials";
 import ResumeCarousel from '@/components/theme-ui/ResumeCarousel';
 import ResumeExamples from '@/components/theme-ui/ResumeExamples';
 import "../App.css";
+import AgentDemand from "@/components/theme-ui/AgentDemand";
 import { HowItWorks } from "@/components/theme-ui/HowItWorks";
 import CoverLetter from "@/components/theme-ui/CoverLetter";
 import Feedback from "@/components/theme-ui/Feedback";
@@ -29,12 +30,13 @@ import AiRecruitment from "@/components/theme-ui/AiRecruitment";
 export default function HomePage() {
     return (
       <>
-        <Hero />
+        <HeroHire />
 {/*         <Sponsors /> */}
 {/*         <HowItWorks /> */}
 {/*         <About /> */}
 {/*         <ResumeCarousel /> */}
 {/*         <ResumeExamples /> */}
+        <AgentDemand/>
         <AiRecruitment/>
         <Hireworks/>
         <AgentControlCenter/>

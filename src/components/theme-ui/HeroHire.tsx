@@ -5,7 +5,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { HeroStatistics } from "./HeroStatistics";
 import Image from 'next/image';
 
-export const Hero = () => {
+export const HeroHire = () => {
   return (
     <section className="w-full bg-landing-banner bg-cover min-h-[470px] flex items-center">
       <div className="container grid md:grid-cols-2 gap-10 pb-10 lg:pb-5 bg-hire-bg bg-no-repeat bg-right">
