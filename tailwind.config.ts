@@ -140,6 +140,7 @@ const config: Config = {
                 'cover-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/cover-bg.webp')",
                 'feedback-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/feedback-banner.webp')",
                 'template-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/template-bg.webp')",
+                'hire-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/hire-banner-bg.webp')",
             },
             keyframes: {
                 'accordion-down': {
