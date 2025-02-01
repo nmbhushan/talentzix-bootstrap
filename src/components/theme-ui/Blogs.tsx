@@ -55,18 +55,18 @@ const Blogs: React.FC = () => {
   };
 
   return (
-    <div className="container bg-white py-12">
+    <div className="container bg-white py-6 md:py-12">
       {/* Section Header */}
       <div className="max-w-[1200px] mx-auto relative">
         <div className="flex items-center justify-between mt-0">
-          <div className="max-w-[710px]">
+          <div className="max-w-[600px] lg:max-w-[710px]">
               <h2 className="text-[24px] md:text-[35px] capitalize leading-tight text-[#17012C] font-semibold mb-3">
                 Blogs
               </h2>
               <p className="text-[13px] md:text-[16px] leading-tight text-[#17012C] font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
           {/* Arrows Positioned on the Right */}
-          <div className="absolute top-1/2 right-0 transform translate-y-[20px] md:-translate-y-1/2 flex space-x-4">
+          <div className="absolute top-1/2 right-0 transform -translate-y-[62px] sm:-translate-y-[40px] md:-translate-y-1/2 flex space-x-4">
             <button
               className="flex items-center justify-center"
               onClick={() => handleScroll("left")}
@@ -92,7 +92,7 @@ const Blogs: React.FC = () => {
           {servicesData.map((service, index) => (
             <Card
               key={index}
-              className="empower-card min-w-[375px] max-w-[375px] h-[418px] flex-shrink-0 rounded-[12px] bg-[#E8F2FF] transition-all duration-300"
+              className="empower-card min-w-[255px] md:min-w-[375px] max-w-[255px] md:max-w-[375px] h-[418px] flex-shrink-0 rounded-[12px] bg-[#E8F2FF] transition-all duration-300"
             >
               <CardHeader className="p-4 bg-empower-bg bg-contain bg-right bg-no-repeat">
                 <CardTitle className="text-[16px] font-semibold text-[#000000]">

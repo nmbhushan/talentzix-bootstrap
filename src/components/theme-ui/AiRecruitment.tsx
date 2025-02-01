@@ -60,7 +60,7 @@ export const AiRecruitment = () => {
             </div>
             {recruitment.map((recruitment, index) => (
             <div key={index} className="col-span-12 md:col-span-4 ai-item">
-                <div className="p-10 bg-[#E8F2FF] rounded-[8px] space-y-3">
+                <div className="p-4 md:p-10 bg-[#E8F2FF] rounded-[8px] space-y-3 h-full">
                     <div className="flex justify-between">
                         <div className="space-y-1">
                             <h5 className="text-[20px] font-bold text-[#181A20]">{recruitment.title}</h5>
@@ -86,7 +86,7 @@ export const AiRecruitment = () => {
                             <CircleCheck className="me-2"/>
                             {recruitment.list4}</li>
                     </ul>
-                    <p className="text-[30px] font-bold text-[#181A20] text-center">${recruitment.price}/Month</p>
+                    <p className="text-[20px] lg:text-[30px] font-bold text-[#181A20] text-center">${recruitment.price}/Month</p>
                     <p className="text-[14px] font-normal text-[#181A20] text-center !mb-4">Starting From</p>
                     <Button variant="link" className="bg-[#E1EAFD] border border-[#635AD9] table px-5 mx-auto text-[#635AD9] rounded-[9px] hover:bg-white hover:no-underline">Hire this Agent</Button>
                 </div>

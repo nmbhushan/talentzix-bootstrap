@@ -2,7 +2,7 @@ import Image from "next/image";
 export const Hireworks = () => {
   return (
     <section>
-      <div className="container py-12">
+      <div className="container py-6 md:py-12">
         <div className="grid grid-cols-12 gap-6">
             <div className="col-span-12 mb-3">
                 <div className="max-w-[710px]">
@@ -13,7 +13,7 @@ export const Hireworks = () => {
                 </div>
             </div>
             <div className="col-span-12 md:col-span-6 p-3 border border-[#E9E9E9] bg-[#FBFDFD] rounded-[12px] flex items-center justify-center">
-                <Image className="max-h-[378px] w-auto" src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/hire-banner-image.webp" alt="Image" width="564" height="460" />
+                <Image className="max-h-[378px] mx-auto table w-auto" src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/hire-banner-image.webp" alt="Image" width="564" height="460" />
             </div>
             <div className="col-span-12 md:col-span-6">
                 <div className="grid grid-cols-12 gap-6">

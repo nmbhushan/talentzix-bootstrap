@@ -5,7 +5,7 @@ export const AgentDemand = () => {
       <div className="container pt-12">
         <div className="grid grid-cols-12 gap-6">
             <div className="col-span-12 md:col-span-4 mb-3 flex items-center">
-                <div className="w-100 space-y-10">
+                <div className="w-100 space-y-4 md:space-y-10">
                     <div  className="bg-[#FFFFFF] p-4 rounded-[8px]">
                         <h3 className="leading-tight text-[24px] md:text-[30px] capitalize leading-tight text-[#17012C] font-semibold mb-3">Effortlessly create your Frontline Agents on demand!</h3>
                         <p className="text-[13px] md:text-[16px] leading-tight text-[#17012C] font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -37,7 +37,7 @@ export const AgentDemand = () => {
                 </div>
             </div>
             <div className="col-span-12 md:col-span-4 mb-3 flex items-center">
-                <div className="w-100 space-y-10">
+                <div className="w-100 space-y-4 md:space-y-10">
                     <div  className="bg-[#F6F3FE] p-4 rounded-[8px]">
                         <Image className="max-h-[330px] mx-auto w-auto mb-4" src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/negotiation.webp" alt="Image" width="343" height="189" />
                         <h3 className="leading-tight text-[24px] md:text-[30px] capitalize leading-tight text-[#17012C] font-semibold mb-3">Offer and Negotiation</h3>
