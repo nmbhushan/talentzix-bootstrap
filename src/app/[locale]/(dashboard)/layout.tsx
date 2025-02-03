@@ -54,7 +54,7 @@ export default function MainLayout({
         `}
             >
                 <AppSidebar
-                    className="bg-sidebar-background h-[100vh] overflow-hidden"
+                    className="bg-[#FFFFFF] h-[100vh] overflow-hidden"
                     navMain={sidebarData.navMain}
                     navSecondary={sidebarData?.navSecondary ?? null}
                     projects={sidebarData.projects ?? null}

@@ -141,6 +141,7 @@ const config: Config = {
                 'feedback-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/feedback-banner.webp')",
                 'template-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/template-bg.webp')",
                 'hire-bg': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/hire-banner-bg.webp')",
+                'welcome-object': "url('https://resumegenie.s3.ap-south-1.amazonaws.com/my-account/welcome-object.webp')",
             },
             keyframes: {
                 'accordion-down': {

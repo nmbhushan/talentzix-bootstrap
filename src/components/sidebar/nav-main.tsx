@@ -77,13 +77,13 @@ export function NavMain({ items }: { items: NavItem[] }) {
                 asChild
                 isActive={isActive}
                 className={cn(
-                  "flex w-full items-center justify-between gap-2 size-10 rounded-md px-2 py-1.5 font-medium transition-colors",
+                  "flex w-full items-center justify-between gap-2 size-10 rounded-[0] px-2 py-1.5 font-medium transition-colors",
                   fontSizeClass,
-                  depth === 0 && "mb-2",
+                  depth === 0 && "mb-0",
                   depth > 0 && "size-8 px-2",
                   isActive &&
                   depth === 0 &&
-                  "bg-foreground text-background hover:bg-foreground",
+                  "bg-[#EFF3FF] text-[#000112]",
                   isActive &&
                   depth === 1 &&
                   "bg-primary/30 px-2 text-black size-8 dark:bg-primary/30 dark:text-foreground/80",
@@ -96,8 +96,8 @@ export function NavMain({ items }: { items: NavItem[] }) {
               >
                 {!isExpandable ? (
                   <Link href={item.url} className="flex flex-1 items-center">
-                    {item.icon && <item.icon className="mr-2 h-4 w-7" />}
-                    <span className="flex-1">{item.title}</span>
+                    {item.icon && <item.icon className="mr-1 h-4 w-7" />}
+                    <span className="flex-1 text-[14px] text-[#404653]">{item.title}</span>
                   </Link>
                 ) : (
                   <button
@@ -105,7 +105,7 @@ export function NavMain({ items }: { items: NavItem[] }) {
                     className="flex flex-1 items-center"
                   >
                     {item.icon && <item.icon className="mr-2 h-4 w-7" />}
-                    <span className="flex-1">{item.title}</span>
+                    <span className="flex-1 text-[14px] text-[#404653]">{item.title}</span>
                   </button>
                 )}
               </SidebarMenuButton>
