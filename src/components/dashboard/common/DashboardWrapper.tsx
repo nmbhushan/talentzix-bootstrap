@@ -2,7 +2,6 @@ import { WelcomeCardCommon } from "@/components/dashboard/home/section-cards/Wel
 import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import { Crown } from 'lucide-react';
-
 import {
     announcements,
     chartConfig,
@@ -19,6 +18,8 @@ import { QuickLinkCards, TQuickLinkCard } from "../home/section-cards/QuickLinkC
 import { WelcomeCard } from "../home/section-cards/WelcomeCard";
 import DashboardInfo from "@/components/dashboard/home/DashboardInfo";
 import DashboardOverview from "@/components/dashboard/home/DashboardOverview";
+import {ResumeTemplateTabs} from "@/components/dashboard/home/ResumeTemplateTabs";
+import {RecommendedJobs} from "@/components/dashboard/home/RecommendedJobs";
 
 export default function DashboardWrapper({ children, welcomeTitle, quickLinks, type = 'common' }: { children?: React.ReactNode, welcomeTitle: string, quickLinks: TQuickLinkCard[], type: 'common' | 'modern' }) {
     if (type === 'modern')
@@ -56,9 +57,9 @@ export default function DashboardWrapper({ children, welcomeTitle, quickLinks, t
 
     return (
         <div className="flex min-h-screen flex-col space-y-6">
-            <div className="flex items-center justify-center bg-[#726ADC] h-[86px] space-x-3">
-                <p className="text-[15px] font-medium text-[#FFFFFF]">Boost your career with a job-winning resume – upgrade now and land your dream job!</p>
-                <Button className="bg-transparent border border-[#FFFFFF] hover:border-[#219BE4]"><Crown className="me-1"/> Upgrade Now</Button>
+            <div className="block sm:flex items-center justify-center bg-[#726ADC] h-auto py-3 sm:py-0 sm:h-[86px] space-x-3 px-3">
+                <p className="text-[12px] sm:text-[15px] leading-tight sm:leading-normal mb-3 sm:mb-0 font-medium text-[#FFFFFF]">Boost your career with a job-winning resume – upgrade now and land your dream job!</p>
+                <Button className="text-[12px] !m-auto bg-transparent border border-[#FFFFFF] hover:border-[#219BE4]"><Crown className="me-1"/> Upgrade Now</Button>
             </div>
             <div className="w-full">
                 {/* <WelcomeCardCommon content={welcomeTitle} /> */}
@@ -75,6 +76,8 @@ export default function DashboardWrapper({ children, welcomeTitle, quickLinks, t
                     </div>
                 </div>
             </div>
+            <ResumeTemplateTabs/>
+            <RecommendedJobs/>
             {children}
         </div>
     );

@@ -17,7 +17,7 @@ import { Input } from "@/components/ui/input"
 
 export function Header() {
   return (
-    <header className="border-b">
+    <header className="border-b mt-12 md:mt-0">
       <div className="flex flex-col md:flex-row h-auto md:h-16 items-center px-4 py-2 md:py-0 gap-4">
         <Input
           placeholder="Nation Towers - 21"

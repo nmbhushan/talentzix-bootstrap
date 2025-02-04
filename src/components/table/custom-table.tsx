@@ -23,9 +23,9 @@ export type CustomTableProps = {
 
 const CustomTable: React.FC<CustomTableProps> = ({ data, columns, actions }) => {
   return (
-    <div className="rounded-md border bg-card">
+    <div className="rounded-md border bg-white">
       <Table>
-        <TableHeader>
+        <TableHeader className="text-[12px]">
           <TableRow>
             {columns.map((column) => (
               <TableHead key={column.key} className={column.className}>
@@ -35,7 +35,7 @@ const CustomTable: React.FC<CustomTableProps> = ({ data, columns, actions }) => 
             {actions && <TableHead>Actions</TableHead>}
           </TableRow>
         </TableHeader>
-        <TableBody>
+        <TableBody className="text-[12px]">
           {data.map((row, index) => (
             <TableRow key={row.id || index}>
               {columns.map((column) => (
