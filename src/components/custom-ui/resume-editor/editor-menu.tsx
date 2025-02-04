@@ -26,8 +26,8 @@ export function EditorMenu() {
                 <Pencil className="text-[#B8B6B6] h-[16px]"/>
             </div>
             <div className="flex items-center">
-                <Link href="/" className="text-[#6144A5]"><CornerUpLeft/></Link>
-                <Link href="/" className="text-[#6144A5]"><CornerUpRight/></Link>
+                <Link href="/" className="text-[#6144A5] hover:text-[#000000]"><CornerUpLeft/></Link>
+                <Link href="/" className="text-[#6144A5] hover:text-[#000000]"><CornerUpRight/></Link>
             </div>
         </div>
         <div className="px-3 py-5 border-b border-[#E7E7E7] space-y-4">
