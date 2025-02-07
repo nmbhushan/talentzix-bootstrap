@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import StarRating from "@/components/theme-ui/StarRating";
 import { CircleCheck } from 'lucide-react';
-const recruitment: Recruitment[] = [
+const recruitment: any[] = [
     {
         id: '1',
         title: 'JobCraft AI #1',

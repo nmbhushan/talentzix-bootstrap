@@ -56,7 +56,7 @@ const Header = () => {
                             </div>
                             <div className="col-span-12 md:col-span-7 justify-end ">
                                 <div className="hidden lg:flex flex-row gap-3 justify-end items-center">
-                                    {siteConfig.header.buylinks.map((link, index) => (
+                                    {/* {siteConfig.header.buylinks.map((link:any, index:any) => (
                                         <div key={link.title} className="flex items-center">
                                             <Link
                                                 href={link.href}
@@ -67,8 +67,8 @@ const Header = () => {
                                             </Link>
                                             {index < siteConfig.header.buylinks.length - 1 && <span>|</span>}
                                         </div>
-                                    ))}
-                                    <div>
+                                    ))} */}
+                                    {/* <div>
                                         <Link
                                             href={siteConfig.header.quickPay[0].href}
                                             className={`ms-2 me-1 pe-1 outline-none cursor-pointer capitalize font-normal text-primary hover:text-primary-foregroundHoverText flex flex-row items-center ${pathname === siteConfig.header.quickPay[0].href ? "text-primary-foregroundHoverText font-semibold" : ""
@@ -76,7 +76,7 @@ const Header = () => {
                                         >
                                             {siteConfig.header.quickPay[0].title}
                                         </Link>
-                                    </div>
+                                    </div> */}
                                     <LoginToggle text="Login" />
                                     <LocaleSwitcher />
                                     <Link href="/">

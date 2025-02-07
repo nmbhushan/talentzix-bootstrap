@@ -1,5 +1,5 @@
 import ProgressBar from "@/components/theme-ui/progress-bar";
-const agent: Agent[] = [
+const agent: any[] = [
     {
         id: '1',
         title: 'JobCraft AI #1',

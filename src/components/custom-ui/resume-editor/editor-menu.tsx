@@ -8,10 +8,10 @@ export function EditorMenu() {
   const [formData, setFormData] = useState({
       heading: "Resume Template 1",
     });
-    const [editingField, setEditingField] = useState(null);
+    const [editingField, setEditingField] = useState<any>(null);
 
-    const handleEdit = (field) => setEditingField(field);
-    const handleChange = (e) => setFormData({ ...formData, [editingField]: e.target.value });
+    const handleEdit = (field:any) => setEditingField(field);
+    const handleChange = (e:any) => setFormData({ ...formData, [editingField]: e.target.value });
     const handleSave = () => setEditingField(null);
 
   return (

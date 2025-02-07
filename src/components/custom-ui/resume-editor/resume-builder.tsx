@@ -18,15 +18,15 @@ export function EditableResume() {
     achievements: "Describe what you did and the impact it had",
     profileImage: null,
   });
-  const [editingField, setEditingField] = useState(null);
+  const [editingField, setEditingField] = useState<any>(null);
 
-  const handleEdit = (field) => setEditingField(field);
-  const handleChange = (e) => setFormData({ ...formData, [editingField]: e.target.value });
+  const handleEdit = (field:any) => setEditingField(field);
+  const handleChange = (e:any) => setFormData({ ...formData, [editingField]: e.target.value });
   const handleSave = () => setEditingField(null);
-  const handleImageUpload = (e) => {
+  const handleImageUpload = (e:any) => {
       const file = e.target.files[0];
       if (file) {
-        const reader = new FileReader();
+        const reader:any = new FileReader();
         reader.onloadend = () => {
           setFormData({ ...formData, profileImage: reader.result });
         };
