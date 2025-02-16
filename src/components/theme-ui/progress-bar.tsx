@@ -1,6 +1,12 @@
+import { progress } from "framer-motion";
 import { useEffect, useState } from "react";
+import { FC } from "react";
 
-const ProgressBar = ({ progress }) => {
+interface ProgressBarProps {
+  progress: number;
+}
+
+const ProgressBar: FC<ProgressBarProps> = ({ progress }) => {
   return (
     <div className="w-full p-0 rounded-lg">
       <div className="w-full bg-blue-200 rounded-full h-[5px]">
