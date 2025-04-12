@@ -14,25 +14,25 @@ interface Letter {
 const letter: Letter[] = [
     {
         id: '1',
-        imageUrl: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-4.webp',
+        imageUrl: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-4.webp',
         title: 'Easily edit online',
         desc: 'Creating the perfectly formatted, custom tailored resume has never been easier.',
     },
     {
         id: '2',
-        imageUrl: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-4.webp',
+        imageUrl: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-4.webp',
         title: 'Easily edit online',
         desc: 'Creating the perfectly formatted, custom tailored resume has never been easier.',
     },
     {
         id: '3',
-        imageUrl: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-4.webp',
+        imageUrl: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-4.webp',
         title: 'Easily edit online',
         desc: 'Creating the perfectly formatted, custom tailored resume has never been easier.',
     },
     {
         id: '4',
-        imageUrl: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-4.webp',
+        imageUrl: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-4.webp',
         title: 'Easily edit online',
         desc: 'Creating the perfectly formatted, custom tailored resume has never been easier.',
     },
@@ -53,7 +53,7 @@ const CoverLetter = () => {
         </div>
         <div className="flex gap-x-4 flex-col md:flex-row items-center justify-around px-0 md:px-6 pt-4 bg-white">
           <Image
-              src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/letter.webp"
+              src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/letter.webp"
               width="330"
               height="330"
               alt="Choose Us"
@@ -66,7 +66,7 @@ const CoverLetter = () => {
                         <div className="col-span-12 md:col-span-4">
                             <div className="bg-[#EEE8FD] rounded-[14px] flex items-center justify-center h-full py-3 md:py-0">
                                 <Image
-                                  src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-4.webp"
+                                  src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-4.webp"
                                   width="28"
                                   height="28"
                                   alt="Choose Us"

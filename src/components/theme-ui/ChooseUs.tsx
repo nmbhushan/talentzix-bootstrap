@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
           {/* Profile Section */}
           <div className="flex items-center">
             <Image
-              src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/dummy.webp"
+              src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/dummy.webp"
               width="40"
               height="40"
               alt="Co-founder"
@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
           {/* Call Section */}
           <div className="flex items-center">
             <Image
-              src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/phone-icon.webp"
+              src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/phone-icon.webp"
               width="40"
               height="40"
               alt="Call Us Logo"
@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
 
       {/* Right Image */}
       <Image
-  src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/choose-right.webp"
+  src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/choose-right.webp"
   width="496"
   height="384"
   alt="Choose Us"

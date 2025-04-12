@@ -18,7 +18,7 @@ export const HeroCards = () => {
   return (
     <div>
       <Image
-        src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/Resume-Banner.webp"
+        src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/Resume-Banner.webp"
         alt="resume"
         width="611"
         height="502"

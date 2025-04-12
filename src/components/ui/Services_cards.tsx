@@ -9,33 +9,33 @@ import { MoveRight } from 'lucide-react';
 const servicesData = [
   {
     title: "Effortless online resume builder",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-1.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-1.webp",
     description: '"Craft an amazing resume in minutes, directly in your browser."',
   },
   {
     title: "Automatic spell-checker",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-2.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-2.webp",
     description:
       '"Our built-in spell checker ensures your resume is free of typos and errors."',
   },
   {
     title: "Your data is safe with us",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-3.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-3.webp",
     description: '"Your data is kept private and secured with 256-bit encryption."',
   },
   {
     title: "Multi-format resume options",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-4.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-4.webp",
     description: '"Save your resume in Word or PDF with one click."',
   },
   {
     title: "AI-generated phrases",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-4.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-4.webp",
     description: '"Leverage AI to select pre-generated phrases and keywords."',
   },
   {
     title: "Auto summary generator",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-4.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-4.webp",
     description:
       '"Create a powerful summary or cover letter with one click. Try it today!"',
   },

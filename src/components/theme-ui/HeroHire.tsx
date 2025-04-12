@@ -22,7 +22,7 @@ export const HeroHire = () => {
           </div>
           <div className="text-center flex items-center justify-center md:text-start grid-cols-1">
               <Image
-                src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/hire-banner-right.webp"
+                src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/hire-banner-right.webp"
                 alt="resume"
                 width="445"
                 height="376"

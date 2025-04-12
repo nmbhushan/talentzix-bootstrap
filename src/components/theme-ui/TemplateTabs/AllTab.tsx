@@ -4,40 +4,40 @@ import Image from 'next/image';
 import Link from 'next/link';
 const TemplateData=[
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-1.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-1.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-2.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-2.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-3.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-3.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-4.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-4.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-1.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-1.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-2.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-2.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-3.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-3.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-4.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-4.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-1.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-1.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-2.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-2.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-3.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-3.webp',
 },
 {
-    url: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-4.webp',
+    url: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-4.webp',
 },
 ]
 

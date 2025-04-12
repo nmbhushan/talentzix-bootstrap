@@ -14,27 +14,27 @@ import RightArrow from '@/assets/Right.png'; // Import Right arrow image
 const templates: Template[] = [
     {
         id: '1',
-        imageUrl: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-1.webp',
+        imageUrl: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-1.webp',
         title: 'Recruiter-Approved Resume',
     },
     {
         id: '2',
-        imageUrl: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-2.webp',
+        imageUrl: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-2.webp',
         title: 'Finish Your Resume in 10 Minutes',
     },
     {
         id: '3',
-        imageUrl: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-3.webp',
+        imageUrl: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-3.webp',
         title: 'Increase Your Interview Chances',
     },
     {
         id: '4',
-        imageUrl: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-4.webp',
+        imageUrl: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-4.webp',
         title: 'Increase Your Interview Chances',
     },
     {
         id: '5',
-        imageUrl: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-5.webp',
+        imageUrl: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-5.webp',
         title: 'Increase Your Interview Chances',
     },
 ];

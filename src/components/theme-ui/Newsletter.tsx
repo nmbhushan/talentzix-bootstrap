@@ -15,7 +15,7 @@ export const Newsletter = () => {
         <div className="grid md:grid-cols-12 relative">
             <div className="col-span-12 md:col-span-6  hidden overflow-hidden md:flex items-center min-h-[162px]">
                 <Image
-                    src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/news-img.webp"
+                    src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/news-img.webp"
                     alt="Spiral Decoration"
                     width={386}
                     height={189}

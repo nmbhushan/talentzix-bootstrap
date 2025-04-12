@@ -10,7 +10,8 @@ const nextConfig: NextConfig = {
             'exalogic-store.s3.us-east-2.amazonaws.com',
             'images.unsplash.com',
             'res.cloudinary.com',
-            'resumegenie.s3.ap-south-1.amazonaws.com'
+            'resumegenie.s3.ap-south-1.amazonaws.com',
+            'talentzixmedia.s3.ap-south-1.amazonaws.com'
         ],
     },
 };

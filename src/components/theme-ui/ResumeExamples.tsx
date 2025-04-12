@@ -37,7 +37,7 @@ const ResumeExamples = () => {
         {/* Spiral Decoration Inside the Container */}
         <div className="absolute top-2 right-6 md:top-3 md:right-10">
           <Image
-            src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/spiral.webp"
+            src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/spiral.webp"
             alt="Spiral Decoration"
             width={95}
             height={88}

@@ -33,7 +33,7 @@ export default function BuildResume() {
         <div className="container grid grid-cols-12 gap-4 md:gap-12 px-3">
             <div className="col-span-12 md:col-span-5">
                 <div className="bg-[#F4F4F4] border border-[#E4E4E4] p-5 rounded-[12px] shadow flex items-center justify-center">
-                    <Image src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-3.webp" alt="Image" width="281" height="400" className="max-h-[400px] h-auto md:h-full" />
+                    <Image src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-3.webp" alt="Image" width="281" height="400" className="max-h-[400px] h-auto md:h-full" />
                 </div>
             </div>
             <div className="col-span-12 md:col-span-7">

@@ -7,7 +7,7 @@ interface SponsorProps {
 const sponsors: SponsorProps[] = [
   {
     icon: <Image
-          src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/amazon.webp"
+          src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/amazon.webp"
           width={82}
           height={36}
           alt="Picture of the author"
@@ -15,7 +15,7 @@ const sponsors: SponsorProps[] = [
   },
   {
     icon: <Image
-          src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/microsoft.webp"
+          src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/microsoft.webp"
           width={102}
           height={36}
           alt="Picture of the author"
@@ -23,7 +23,7 @@ const sponsors: SponsorProps[] = [
   },
   {
     icon: <Image
-          src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/samsung.webp"
+          src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/samsung.webp"
           width={102}
           height={36}
           alt="Picture of the author"
@@ -31,7 +31,7 @@ const sponsors: SponsorProps[] = [
   },
   {
     icon: <Image
-          src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/ibm.webp"
+          src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/ibm.webp"
           width={53}
           height={36}
           alt="Picture of the author"
@@ -39,7 +39,7 @@ const sponsors: SponsorProps[] = [
   },
   {
     icon: <Image
-          src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/facebook.webp"
+          src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/facebook.webp"
           width={86}
           height={36}
           alt="Picture of the author"
@@ -47,7 +47,7 @@ const sponsors: SponsorProps[] = [
   },
   {
     icon: <Image
-          src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/dell.webp"
+          src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/dell.webp"
           width={160}
           height={36}
           alt="Picture of the author"
@@ -55,7 +55,7 @@ const sponsors: SponsorProps[] = [
   },
   {
     icon: <Image
-          src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/cognizant.webp"
+          src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/cognizant.webp"
           width={112}
           height={36}
           alt="Picture of the author"

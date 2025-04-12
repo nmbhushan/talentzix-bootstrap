@@ -9,33 +9,33 @@ import { MoveRight } from 'lucide-react';
 const servicesData = [
   {
     title: "Resume Builder using AI - New market trends",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/blog-banner-1.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/blog-banner-1.webp",
     description: '"Craft an amazing resume in minutes, directly in your browser."',
   },
   {
     title: "Resume Builder using AI - New market trends",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/blog-banner-2.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/blog-banner-2.webp",
     description:
       '"Our built-in spell checker ensures your resume is free of typos and errors."',
   },
   {
     title: "Resume Builder using AI - New market trends",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/blog-banner-3.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/blog-banner-3.webp",
     description: '"Your data is kept private and secured with 256-bit encryption."',
   },
   {
     title: "Resume Builder using AI - New market trends",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/blog-banner-1.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/blog-banner-1.webp",
     description: '"Save your resume in Word or PDF with one click."',
   },
   {
     title: "Resume Builder using AI - New market trends",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/blog-banner-2.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/blog-banner-2.webp",
     description: '"Leverage AI to select pre-generated phrases and keywords."',
   },
   {
     title: "Resume Builder using AI - New market trends",
-    image: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/blog-banner-3.webp",
+    image: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/blog-banner-3.webp",
     description:
       '"Create a powerful summary or cover letter with one click. Try it today!"',
   },

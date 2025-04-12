@@ -37,7 +37,7 @@ export function ResumeTemplateTabs() {
                 {activeTab === "tab1" &&
                 <div className="grid grid-cols-12 gap-4">
                     <div className="col-span-12 md:col-span-4 lg:col-span-3 border border-[#E4E7EB] rounded-[5px] flex items-center justify-center p-1">
-                        <Image src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-3.webp" width="175" height="250" alt="Resume" />
+                        <Image src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-3.webp" width="175" height="250" alt="Resume" />
                     </div>
                     <div className="col-span-12 md:col-span-4 lg:col-span-3 border border-[#E4E7EB] rounded-[5px] p-3">
                         <div className="flex items-center">

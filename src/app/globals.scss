@@ -11,8 +11,8 @@ body {
 }
 .empower .empower-card:hover {background-color: #635AD9;}
 .empower .empower-card:hover h3, .empower .empower-card:hover a, .empower .empower-card:hover p, .empower .empower-card:hover div{color:#ffffff !important;}
-.empower .empower-card .empower-image{background-image: url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/shape-grey.webp')};
-.empower .empower-card:hover .empower-image{background-image: url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/shape-white.webp')};
+.empower .empower-card .empower-image{background-image: url('https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/shape-grey.webp')};
+.empower .empower-card:hover .empower-image{background-image: url('https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/shape-white.webp')};
 .cover-scroll::-webkit-scrollbar{width: 7px;}
 .cover-scroll::-webkit-scrollbar-track{background: #F1F1F1;}
 .cover-scroll::-webkit-scrollbar-thumb{background: #000000;}
@@ -21,7 +21,7 @@ body {
 .verify-account .exclude-div{display: none;}
 .ai-team .ai-item:nth-child(3) > div {background-color: #635AD9;}
 .ai-team .ai-item:nth-child(3) h2, .ai-team .ai-item:nth-child(3) h5, .ai-team .ai-item:nth-child(3) p, .ai-team .ai-item:nth-child(3) li {color: #FFFFFF;}
-.ai-team .ai-item:nth-child(3) > div {background-image:url('https://resumegenie.s3.ap-south-1.amazonaws.com/landing/empower-bg.webp');background-size:150px;background-position:top right;background-repeat: no-repeat;}
+.ai-team .ai-item:nth-child(3) > div {background-image:url('https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/empower-bg.webp');background-size:150px;background-position:top right;background-repeat: no-repeat;}
 @layer base {
     :root {
         /* Base Colors */

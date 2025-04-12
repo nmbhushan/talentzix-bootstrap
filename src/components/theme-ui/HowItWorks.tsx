@@ -12,7 +12,7 @@
   const features: FeatureProps[] = [
     {
       icon: <Image
-              src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/recruit-approve.webp"
+              src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/recruit-approve.webp"
               alt="resume"
               width="181"
               height="140"
@@ -24,7 +24,7 @@
     },
     {
       icon: <Image
-            src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/recruit-timer.webp"
+            src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/recruit-timer.webp"
             alt="resume"
             width="181"
             height="140"
@@ -36,7 +36,7 @@
     },
     {
       icon: <Image
-            src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/recruit-chance.webp"
+            src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/recruit-chance.webp"
             alt="resume"
             width="181"
             height="140"

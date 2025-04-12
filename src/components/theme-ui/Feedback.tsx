@@ -55,7 +55,7 @@ const Feedback: React.FC = () => {
         <div className="container overflow-x-hidden max-w-[400px] md:max-w-[100%] grid-cols-3 flex flex-col md:flex-row items-center justify-around px-6">
           <div className="grid-cols-3 md:grid-cols-1">
               <Image
-                src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/feedback-girl.webp"
+                src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/feedback-girl.webp"
                 width="409"
                 height="451"
                 alt="Choose Us"
@@ -112,14 +112,14 @@ const Feedback: React.FC = () => {
                       <Star className="h-[15px] w-auto"/>
                       <Star className="h-[15px] w-auto"/>
                   </div>
-                  <Image src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/quote.webp" alt="Empower" width={20} height={20} />
+                  <Image src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/quote.webp" alt="Empower" width={20} height={20} />
                 </CardTitle>
               </CardHeader>
               <CardContent className="px-4 leading-tight font-medium text-[11px] text-[#504E4E]">
                 {feedback.description}
                 <div className="flex items-center mt-3">
                     <Image
-                      src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/dummy.webp"
+                      src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/dummy.webp"
                       width="40"
                       height="40"
                       alt="Co-founder"

@@ -14,12 +14,12 @@ export const HeroStatistics = () => {
     {
       quantity: "40%",
       description: "More Interviews",
-      icon: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/quantity.webp",
+      icon: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/quantity.webp",
     },
     {
       quantity: "28%",
       description: "More Likely to get a job offer",
-      icon: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/description.webp",
+      icon: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/description.webp",
     },
   ];
 

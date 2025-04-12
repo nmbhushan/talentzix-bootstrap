@@ -32,7 +32,7 @@ const LoginLayout = ({
                     <Image
                         width="704"
                         height="768"
-                        src="https://resumegenie.s3.ap-south-1.amazonaws.com/login/login-banner.webp"
+                        src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/login/login-banner.webp"
                         alt="Login Banner"
                         className="w-full object-cover h-full dark:invert dark:brightness-0 dark:saturate-0"
                     />

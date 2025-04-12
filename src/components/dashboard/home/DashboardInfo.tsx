@@ -19,7 +19,7 @@ export default function DashboardInfo() {
                         </div>
                     </div>
                     <div className="col-span-12 sm:col-span-5 flex items-end justify-center">
-                        <Image src="https://resumegenie.s3.ap-south-1.amazonaws.com/my-account/welcome-info.webp" width="191" height="172" alt="Image" />
+                        <Image src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/my-account/welcome-info.webp" width="191" height="172" alt="Image" />
                     </div>
                 </div>
             </div>

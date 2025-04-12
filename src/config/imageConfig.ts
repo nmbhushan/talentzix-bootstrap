@@ -7,7 +7,7 @@ export const imageConfig = {
         trusted: '/images/landing/trusted.png',
     },
     aboutus: {
-        aboutBanner: 'https://resumegenie.s3.ap-south-1.amazonaws.com/landing/Resume-Banner.webp',
+        aboutBanner: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/Resume-Banner.webp',
         aboutBannerAlt: 'about-banner-img.png',
         ourMissionImg: {
             image1: '/images/landing/mission-1.png',
@@ -39,7 +39,7 @@ export const imageConfig = {
 
 export const PropertyCardData = [
     {
-        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-1.webp",
+        propertyImg: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-1.webp",
         propertyTitle: "2 Bedroom Apartment For Sale in Vida Residence Downtown",
         propertyPlat: "0203",
         propertyResidency: "Vida Residence Downtown V1",
@@ -52,7 +52,7 @@ export const PropertyCardData = [
         propertyPrice: "9,500,000"
     },
     {
-        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-2.webp",
+        propertyImg: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-2.webp",
         propertyTitle: "3 Bedroom Apartment For Sale in Vida Residence Downtown",
         propertyPlat: "0203",
         propertyResidency: "Vida Residence Downtown V1",
@@ -65,7 +65,7 @@ export const PropertyCardData = [
         propertyPrice: "12,500,000"
     },
     {
-        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-3.webp",
+        propertyImg: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-3.webp",
         propertyTitle: "2 Bedroom Apartment For Sale in Vida Residence Downtown",
         propertyPlat: "0203",
         propertyResidency: "Vida Residence Downtown V1",
@@ -78,7 +78,7 @@ export const PropertyCardData = [
         propertyPrice: "9,500,000"
     },
     {
-        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-4.webp",
+        propertyImg: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-4.webp",
         propertyTitle: "2 Bedroom Apartment For Sale in Vida Residence Downtown",
         propertyPlat: "0203",
         propertyResidency: "Vida Residence Downtown V1",
@@ -91,7 +91,7 @@ export const PropertyCardData = [
         propertyPrice: "9,500,000"
     },
     {
-        propertyImg: "https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-5.webp",
+        propertyImg: "https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-5.webp",
         propertyTitle: "2 Bedroom Apartment For Sale in Vida Residence Downtown",
         propertyPlat: "0203",
         propertyResidency: "Vida Residence Downtown V1",

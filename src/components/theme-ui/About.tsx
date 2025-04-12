@@ -8,7 +8,7 @@ export const About = () => {
       <div className="container py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <Image
-            src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/resume-optimize.webp"
+            src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/resume-optimize.webp"
             alt="resume"
             width="410"
             height="438"
@@ -30,7 +30,7 @@ export const About = () => {
               <ul className="py-3">
                 <li className="text-[#17012] text-[11px] font-medium leading-normal pb-2 flex items-center">
                   <Image
-                    src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
+                    src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
                     width="15"
                     height="15"
                     alt="Check"
@@ -40,7 +40,7 @@ export const About = () => {
                 </li>
                 <li className="text-[#17012] text-[11px] font-medium leading-normal pb-2 flex items-center">
                   <Image
-                    src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
+                    src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
                     width="15"
                     height="15"
                     alt="Check"
@@ -50,7 +50,7 @@ export const About = () => {
                 </li>
                 <li className="text-[#17012] text-[11px] font-medium leading-normal pb-2 flex items-center">
                   <Image
-                    src="https://resumegenie.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
+                    src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
                     width="15"
                     height="15"
                     alt="Check"
