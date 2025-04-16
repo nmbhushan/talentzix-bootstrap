@@ -55,14 +55,14 @@ const Services: React.FC = () => {
   };
 
   return (
-    <div className="container bg-white py-12">
+    <div className="container bg-background py-12">
       {/* Section Header */}
       <div className="max-w-[1200px] mx-auto relative">
         <h3 className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
           Our Best Services
         </h3>
         <div className="flex items-center justify-between mt-0">
-          <h2 className="text-[24px] md:text-[35px] capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold">
+          <h2 className="text-[24px] md:text-[35px] capitalize max-w-[610px] leading-tight text-foreground font-semibold">
             Empowering you to achieve your career goals
           </h2>
           {/* Arrows Positioned on the Right */}

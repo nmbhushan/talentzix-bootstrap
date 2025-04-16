@@ -7,14 +7,14 @@ import Image from 'next/image';
 
 const WhyChooseUs = () => {
   return (
-    <div className="container flex flex-col md:flex-row items-center justify-around px-6 py-12 bg-white">
+    <div className="container flex flex-col md:flex-row items-center justify-around px-6 py-12 bg-background">
       {/* Left Content */}
       <div className="max-w-lg">
         <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
             Why Choose Us
         </p>
-        <h2 className="text-[24px] mb-4 capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold mx-auto">Why Choose Us</h2>
-        <p className="text-[#504E4E] text-[12px] mb-4">
+        <h2 className="text-[24px] mb-4 capitalize max-w-[610px] leading-tight text-foreground font-semibold mx-auto">Why Choose Us</h2>
+        <p className="text-foreground text-[12px] mb-4">
           Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has
           been the industry's standard dummy text ever since the 1500s, when an unknown printer took
           a galley of type and scrambled it to make a type specimen book.
@@ -30,8 +30,8 @@ const WhyChooseUs = () => {
               className="w-12 h-12 rounded-full object-cover"
             />
             <div className="ml-3">
-              <p className="text-[#17012C] text-[12px] font-medium">Jonna Merlin</p>
-              <p className="text-[#504E4E] text-[10px]">Co-Founder</p>
+              <p className="text-foreground text-[12px] font-medium">Jonna Merlin</p>
+              <p className="text-foreground text-[10px]">Co-Founder</p>
             </div>
           </div>
 
@@ -45,8 +45,8 @@ const WhyChooseUs = () => {
               className="w-12 h-12 rounded-full object-cover"
             />
             <div className="ml-3">
-              <p className="text-[#504E4E] text-[12px] font-semibold">Call Us Now</p>
-              <p className="text-[#17012C] text-[12px] font-semibold">+208-555-0112</p>
+              <p className="text-foreground text-[12px] font-semibold">Call Us Now</p>
+              <p className="text-foreground text-[12px] font-semibold">+208-555-0112</p>
             </div>
           </div>
         </div>

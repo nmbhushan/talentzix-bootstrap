@@ -59,7 +59,7 @@
               Create Resume
             </p>
 
-            <h2 className="text-[24px] md:text-[35px] capitalize max-w-[420px] leading-tight mx-auto text-[#17012C] font-semibold pb-5">
+            <h2 className="text-[24px] md:text-[35px] capitalize max-w-[420px] leading-tight mx-auto text-foreground font-semibold pb-5">
                 Create a resume that gets results
             </h2>
 
@@ -67,7 +67,7 @@
               {features.map(({ icon, title, description }: FeatureProps) => (
                 <Card
                   key={title}
-                  className="bg-muted/50"
+                  className="bg-[#F9F9FA]"
                 >
                   <CardHeader className="p-3">
                     <CardTitle className="grid gap-4 place-items-center">

@@ -86,7 +86,7 @@ export const Navbar = () => {
 
               <SheetContent side={"left"}>
                 <SheetHeader>
-                  <SheetTitle className="font-bold text-xl">
+                  <SheetTitle className="font-bold text-xl text-[#000000]">
                     Talentzix
                   </SheetTitle>
                 </SheetHeader>

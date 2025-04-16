@@ -71,11 +71,11 @@ export const FAQ = () => {
   return (
     <section
       id="faq"
-      className="flex items-center justify-center bg-white py-14"
+      className="flex items-center justify-center bg-background py-14"
     >
-      <div className="container bg-white">
+      <div className="container bg-background">
         <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text mx-auto text-transparent flex justify-center uppercase">Faq</p>
-        <h2 className="text-[24px] md:text-[35px] mb-10 capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold mx-auto">
+        <h2 className="text-[24px] md:text-[35px] mb-10 capitalize max-w-[610px] leading-tight text-foreground font-semibold mx-auto">
           Frequently Asked Questions
         </h2>
 
@@ -86,12 +86,12 @@ export const FAQ = () => {
               value={value}
               className="border-b border-[#000000]"
             >
-              <AccordionTrigger className="text-start !leading-[25px] flex items-center justify-between text-[18px] md:text-[21px] font-medium text-[#000000] py-4">
+              <AccordionTrigger className="text-start !leading-[25px] flex items-center justify-between text-[18px] md:text-[21px] font-medium text-foreground py-4">
                 {question}
                 
               </AccordionTrigger>
 
-              <AccordionContent className="text-[14px] text-[#504E4E] pb-4">
+              <AccordionContent className="text-[14px] text-foreground pb-4">
                 {answer}
               </AccordionContent>
             </AccordionItem>

@@ -3,7 +3,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="bg-resume-bg bg-no-repeat bg-cover"
+      className="bg-gradient-to-r from-[#F6F5FD] to-[#E9E3FC] bg-no-repeat bg-cover"
     >
       <div className="container py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
@@ -28,7 +28,7 @@ export const About = () => {
                 parsing.
               </p>
               <ul className="py-3">
-                <li className="text-[#17012] text-[11px] font-medium leading-normal pb-2 flex items-center">
+                <li className="text-[#17012C] text-[11px] font-medium leading-normal pb-2 flex items-center">
                   <Image
                     src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
                     width="15"
@@ -38,7 +38,7 @@ export const About = () => {
                   />
                   Clear and accessible contact information
                 </li>
-                <li className="text-[#17012] text-[11px] font-medium leading-normal pb-2 flex items-center">
+                <li className="text-[#17012C] text-[11px] font-medium leading-normal pb-2 flex items-center">
                   <Image
                     src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
                     width="15"
@@ -48,7 +48,7 @@ export const About = () => {
                   />
                   Complete parsing of the experience section
                 </li>
-                <li className="text-[#17012] text-[11px] font-medium leading-normal pb-2 flex items-center">
+                <li className="text-[#17012C] text-[11px] font-medium leading-normal pb-2 flex items-center">
                   <Image
                     src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/arrow.webp"
                     width="15"

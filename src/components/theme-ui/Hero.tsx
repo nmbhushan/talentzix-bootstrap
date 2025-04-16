@@ -13,7 +13,7 @@ export const Hero = () => {
                 <p className="text-[14px] text-[#2F9DFD] uppercase">
                   Build Your Resume
                 </p>
-                <h1 className="text-[24px] md:text-[51px] font-bold text-[#000000] leading-normal md:leading-[54px] mt-0">Land Your Dream Job with a Resume in Minutes</h1>
+                <h1 className="text-[24px] md:text-[51px] font-bold text-foreground leading-normal md:leading-[54px] mt-0">Land Your Dream Job with a Resume in Minutes</h1>
                 <Button className="h-[36px] uppercase bg-[#635AD9] text-white rounded-[71px] font-bold text-[11px] text-center px-5">
                     Create your resume
                 </Button>

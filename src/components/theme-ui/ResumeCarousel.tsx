@@ -66,7 +66,7 @@ const ResumeCarousel: FC<ResumeCarouselProps> = () => {
                 <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
                     Lorem Ipsum
                 </p>
-                <h2 className="text-[24px] md:text-[35px] capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold mx-auto">
+                <h2 className="text-[24px] md:text-[35px] capitalize max-w-[610px] leading-tight text-foreground font-semibold mx-auto">
                     Create A Resume That Gets Results
                 </h2>
             </div>

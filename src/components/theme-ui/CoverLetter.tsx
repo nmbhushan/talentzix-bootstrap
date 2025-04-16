@@ -42,16 +42,16 @@ const letter: Letter[] = [
 const CoverLetter = () => {
   return (
     <div className="container pt-12 md:py-12">
-        <div className="flex flex-col md:flex-row items-center px-0 md:px-6 bg-white">
+        <div className="flex flex-col md:flex-row items-center px-0 md:px-6 bg-background">
           {/* Left Content */}
           <div className="max-w-lg">
             <p className="text-semibold text-[11px] uppercase bg-gradient-to-r from-[#635AD9] to-[#219BE4] bg-clip-text text-transparent inline-block">
                 Cover Letter
             </p>
-            <h2 className="text-[24px] mb-4 capitalize max-w-[610px] leading-tight text-[#17012C] font-semibold">Easily create a job-ready resume and cover letter to get hired faster.</h2>
+            <h2 className="text-[24px] mb-4 capitalize max-w-[610px] leading-tight text-foreground font-semibold">Easily create a job-ready resume and cover letter to get hired faster.</h2>
           </div>
         </div>
-        <div className="flex gap-x-4 flex-col md:flex-row items-center justify-around px-0 md:px-6 pt-4 bg-white">
+        <div className="flex gap-x-4 flex-col md:flex-row items-center justify-around px-0 md:px-6 pt-4 bg-background">
           <Image
               src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/landing/letter.webp"
               width="330"
