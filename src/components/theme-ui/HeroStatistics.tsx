@@ -37,10 +37,10 @@ export const HeroStatistics = () => {
               height={42}
             />
             <div className="space-y-2 text-center">
-              <h2 className="text-[21px] font-semibold text-foreground flex items-center">
+              <h2 className="text-[21px] font-semibold text-[#000000] flex items-center">
                 <MoveUp className="me-1 text-[10px]" /> {quantity}
               </h2>
-              <p className="text-[11px] text-foreground uppercase text-start ms-2">{description}</p>
+              <p className="text-[11px] text-[#000000] uppercase text-start ms-2">{description}</p>
             </div>
           </div>
         ))}
