@@ -30,7 +30,7 @@ export default function TemplateTabs() {
             className={`px-4 py-2 text-sm font-medium ${
               activeTab === tab.id
                 ? "text-[14px] md:text-[17px] font-semibold text-[#FFFFFF] bg-[#635AD9] rounded-[6px] md:min-w-[120px]"
-                : "text-[14px] md:text-[17px] font-semibold text-[#17012C] md:min-w-[120px]"
+                : "text-[14px] md:text-[17px] font-semibold text-foreground md:min-w-[120px]"
             }`}
             onClick={() => setActiveTab(tab.id)}
           >

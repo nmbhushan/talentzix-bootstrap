@@ -37,22 +37,22 @@ export default function BuildResume() {
                 </div>
             </div>
             <div className="col-span-12 md:col-span-7">
-                <h1 className="text-[24px] md:text-[25px] lg:text-[35px] leading-tight font-semibold text-[#17012C]">Just three simple steps to Build professional Resume</h1>
+                <h1 className="text-[24px] md:text-[25px] lg:text-[35px] leading-tight font-semibold text-foreground">Just three simple steps to Build professional Resume</h1>
                 <div className="block py-9 space-y-5">
                     <div className="block relative ps-10">
-                        <span className="bg-[#D9D9D9] text-[15px] font-semibold w-[24px] h-[24px] rounded-[71px] inline-flex items-center justify-center text-center left-0 absolute top-0">1</span>
-                        <h6 className="text-[#1A1A1A] text-[15px] font-semibold mb-2">Select Template</h6>
-                        <p className="text-[#1A1A1A] text-[12px] leading-tight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <span className="bg-[#D9D9D9] text-[#000000] text-[15px] font-semibold w-[24px] h-[24px] rounded-[71px] inline-flex items-center justify-center text-center left-0 absolute top-0">1</span>
+                        <h6 className="text-foreground text-[15px] font-semibold mb-2">Select Template</h6>
+                        <p className="text-foreground text-[12px] leading-tight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                     <div className="block relative ps-10">
-                        <span className="bg-[#D9D9D9] text-[15px] font-semibold w-[24px] h-[24px] rounded-[71px] inline-flex items-center justify-center text-center left-0 absolute top-0">2</span>
-                        <h6 className="text-[#1A1A1A] text-[15px] font-semibold mb-2">Enter Your Details</h6>
-                        <p className="text-[#1A1A1A] text-[12px] leading-tight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <span className="bg-[#D9D9D9] text-[#000000] text-[15px] font-semibold w-[24px] h-[24px] rounded-[71px] inline-flex items-center justify-center text-center left-0 absolute top-0">2</span>
+                        <h6 className="text-foreground text-[15px] font-semibold mb-2">Enter Your Details</h6>
+                        <p className="text-foreground text-[12px] leading-tight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </div>
                     <div className="block relative ps-10">
-                        <span className="bg-[#D9D9D9] text-[15px] font-semibold w-[24px] h-[24px] rounded-[71px] inline-flex items-center justify-center text-center left-0 absolute top-0">3</span>
-                        <h6 className="text-[#1A1A1A] text-[15px] font-semibold mb-2">Select Template</h6>
-                        <p className="text-[#1A1A1A] text-[12px] leading-tight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <span className="bg-[#D9D9D9] text-[#000000] text-[15px] font-semibold w-[24px] h-[24px] rounded-[71px] inline-flex items-center justify-center text-center left-0 absolute top-0">3</span>
+                        <h6 className="text-foreground text-[15px] font-semibold mb-2">Select Template</h6>
+                        <p className="text-foreground text-[12px] leading-tight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     </div>
                 </div>
                 <Button className="rounded-[71px] px-5">Get Started</Button>
