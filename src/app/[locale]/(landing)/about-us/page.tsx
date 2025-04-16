@@ -17,7 +17,7 @@ const Aboutus = () => {
         <>
             <div className="container  text-base">
                 <div className="mb-8 grid gap-4 md:grid-cols-12 lg:grid-cols-12 justify-between items-center">
-                    <div className="col-span-12 md:col-span-6 space-y-6">
+                    <div className="col-span-12 md:col-span-6 space-y-6 my-10">
                         <HeadingOne title='About Us' />
                         <p>
                             Welcome to Talentzix, a dynamic platform dedicated to empowering individuals and 
