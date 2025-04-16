@@ -65,7 +65,7 @@ export default function DashboardWrapper({ children, welcomeTitle, quickLinks, t
                 {/* <WelcomeCardCommon content={welcomeTitle} /> */}
                 <div className="flex items-center justify-between mb-3">
                     <h6 className="text-[14px] text-[#000112] font-semibold mb-0">Dashboard</h6>
-                    <Image src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/my-account/dashboard-set.webp" width="20" height="20" alt="Image" />
+                    {/* <Image src="https://talentzixmedia.s3.ap-south-1.amazonaws.com/my-account/dashboard-set.webp" width="20" height="20" alt="Image" /> */}
                 </div>
                 <div className="grid grid-cols-12 gap-6">
                     <div className="col-span-12 md:col-span-6">

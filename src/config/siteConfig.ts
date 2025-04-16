@@ -5,13 +5,13 @@ export const siteConfig = {
   description: 'Talentzix : Craft Your Dream Resume in 10 Minutes with GenA',
   authPageTitle: 'Talentzix',
   authPageDesc: 'Craft Your Dream Resume in 10 Minutes with GenA',
-  logo: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/logo.png',
+  logo: 'https://talentzixmedia.s3.ap-south-1.amazonaws.com/logo.webp',
   logoWidth: 131,
   logoHeight: 34,
   links: {
     linkedin: 'https://www.linkedin.com/',
     website:
-      'https://talentzixmedia.s3.ap-south-1.amazonaws.com/logo.png'
+      'https://talentzixmedia.s3.ap-south-1.amazonaws.com/logo.webp'
   },
   contact: {
     email: 'support@talentzix.ai',

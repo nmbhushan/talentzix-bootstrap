@@ -64,7 +64,7 @@ const ContactUsForm = () => {
                                 name="first_name"
                                 render={({ field }) => (
                                     <FormItem>
-                                        <FormLabel className="text-black">
+                                        <FormLabel className="text-foreground">
                                             First Name <LabelError />
                                         </FormLabel>
                                         <FormControl>
@@ -81,7 +81,7 @@ const ContactUsForm = () => {
                                 name="last_name"
                                 render={({ field }) => (
                                     <FormItem>
-                                        <FormLabel className="text-black">
+                                        <FormLabel className="text-foreground">
                                             Last Name
                                         </FormLabel>
                                         <FormControl>
@@ -99,7 +99,7 @@ const ContactUsForm = () => {
                                 name="email"
                                 render={({ field }) => (
                                     <FormItem>
-                                        <FormLabel className="text-black">
+                                        <FormLabel className="text-foreground">
                                             Email <LabelError />
                                         </FormLabel>
                                         <FormControl>
@@ -111,7 +111,7 @@ const ContactUsForm = () => {
                             />
                         </div>
                         <div className="flex flex-col w-full">
-                            <Label htmlFor="password" className="text-black">
+                            <Label htmlFor="password" className="text-foreground">
                                 {" "}
                                 Mobile No <LabelError />
                             </Label>
@@ -128,7 +128,7 @@ const ContactUsForm = () => {
                             name="description"
                             render={({ field }) => (
                                 <FormItem>
-                                    <FormLabel className="text-black">
+                                    <FormLabel className="text-foreground">
                                         Description
                                     </FormLabel>
                                     <FormControl>
@@ -140,7 +140,7 @@ const ContactUsForm = () => {
                         />
                     </div>
                     <Button
-                        className="text-center w-[100%] mt-3"
+                        className="text-center text-[#FFFFFF] w-[100%] mt-3 bg-[#635AD9]"
                         type="submit"
                     >
                         Submit

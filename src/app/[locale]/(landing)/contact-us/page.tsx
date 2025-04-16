@@ -35,21 +35,23 @@ const ContactUs = () => {
     ];
     return (
         <>
-            <div className='bg-no-repeat bg-contact-banner bg-cover py-8 -mt-[20px]'>
-                <div className="container">
-                    <div className="mb-8 grid gap-10 md:grid-cols-12 lg:grid-cols-12 justify-between">
-                        <div className="col-span-12 md:col-span-6 space-y-6 text-white">
-                            <HeadingOne title='Get in touch with us' />
-                            <TabsLayout tabs={tabItems} layout="layout1" theme="dark" align='center' />
-                        </div>
-                        <div className="col-span-12 md:col-span-6 py-10">
-                            <CustomCard variant='with-space'>
-                                <ContactUsForm />
-                            </CustomCard>
+            <div className="pb-10">
+                <div className='bg-no-repeat bg-contact-banner bg-cover py-8 -mt-[20px]'>
+                    <div className="container px-4 mt-4">
+                        <div className="grid md:gap-10 md:grid-cols-12 lg:grid-cols-12 justify-between">
+                            <div className="col-span-12 md:col-span-6 space-y-6 text-white mb-4 md:mb-0">
+                                <HeadingOne title='Get in touch with us' />
+                                <TabsLayout tabs={tabItems} layout="layout1" theme="dark" align='center' />
+                            </div>
+                            <div className="col-span-12 md:col-span-6 space-y-6">
+                                <CustomCard variant='with-space'>
+                                    <ContactUsForm />
+                                </CustomCard>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>    
         </>
     );
 }

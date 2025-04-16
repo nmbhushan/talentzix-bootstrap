@@ -17,8 +17,8 @@ const ContactUsCard = ({ item }: { item: { address: string, phone: string } }) =
             <CardHeader>
                 <CardTitle className="mb-3">  Find us at  </CardTitle>
                 <CardDescription className="flex text-white items-center text-base">
-                    <Button variant="ghost" size="icon" className="rounded-full p-0  me-4">
-                        <IoLocationSharp className="text-white" />
+                    <Button variant="outline" size="icon" className="bg-[#FFFFFF] border-[#FFFFFF] rounded-full !w-[45px] !h-[36px] p-1 me-4">
+                        <IoLocationSharp className="text-[#635AD9] !w-5 !h-5" />
                     </Button>
                     {item.address}</CardDescription>
             </CardHeader>
@@ -26,22 +26,22 @@ const ContactUsCard = ({ item }: { item: { address: string, phone: string } }) =
                 <p className="scroll-m-20 text-2xl font-semibold tracking-tight mb-3">
                     Reach out to us at
                 </p>
-                <div className="bg-white/30 rounded-full inline-block min-w-72  mb-4 p-2">
+                <div className="bg-white/30 rounded-full inline-block md:min-w-72 mb-4 p-2">
                     <div className="flex items-center">
-                        <Link href={`tel:${item.phone}`}>
-                            <Button variant="outline" size="icon" className="rounded-full p-1 me-4">
-                                <IoCallSharp className="text-primary w-7 h-7" />
+                        <Link href={`tel:${item.phone}`} className="flex items-center p-2">
+                            <Button variant="outline" size="icon" className="bg-[#FFFFFF] border-[#FFFFFF] rounded-full p-1 me-2">
+                                <IoCallSharp className="text-[#635AD9] !w-5 !h-5" />
                             </Button>
                             {item.phone}
                         </Link>
                     </div>
                 </div>
                 <br />
-                <div className="bg-white/30 rounded-full inline-block min-w-72  mb-4 p-2">
+                <div className="bg-white/30 rounded-full inline-block md:min-w-72  mb-4 p-2">
                     <div className="flex items-center">
-                        <Link href={`mailto:${siteConfig.contact.email}`}>
-                            <Button variant="outline" size="icon" className="rounded-full p-1 me-4">
-                                <IoMail className="text-primary w-7 h-7" />
+                        <Link href={`mailto:${siteConfig.contact.email}`} className="flex items-center p-2">
+                            <Button variant="outline" size="icon" className="bg-[#FFFFFF] border-[#FFFFFF] rounded-full p-1 me-2">
+                                <IoMail className="text-[#635AD9] !w-5 !h-5" />
                             </Button>
                             {siteConfig.contact.email}
                         </Link>
