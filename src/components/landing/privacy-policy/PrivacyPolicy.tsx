@@ -8,7 +8,7 @@ const Privacy = () => {
         <>
             <HeadingOne title='Privacy Policy' />
             <ScrollArea className="max-h-full overflow-y-auto">
-                <div className="space-y-4">
+                <div className="space-y-4 mb-10">
                     <section className="mt-2">
                         <p className="mb-3">Your privacy is critically important to us. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our website or services. By using our website, you agree to the terms of this Privacy Policy. If you have any questions or concerns, please contact us using the details provided at the end of this policy.</p>
                     </section>

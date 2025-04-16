@@ -6,7 +6,7 @@ const Terms = () => {
         <>
             <HeadingOne title='Terms and Conditions' />
             <ScrollArea className="max-h-full overflow-y-auto">
-                <div className="space-y-4">
+                <div className="space-y-4 mb-10">
                     <section className="mt-2">
                         <p className="mb-3"> <strong> Effective Date: 22 Jan 2025</strong> </p>
                         <p className="mb-3">
