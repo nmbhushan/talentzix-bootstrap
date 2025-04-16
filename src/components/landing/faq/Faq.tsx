@@ -93,7 +93,7 @@ const Faq = () => {
                 ))}
             </Accordion>
 
-            <h3 className="font-medium mt-4">
+            <h3 className="font-medium mt-4 mb-10">
                 Still have questions?{" "}
                 <a
                 rel="noreferrer noopener"

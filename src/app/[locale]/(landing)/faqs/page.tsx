@@ -15,9 +15,11 @@ const breadcrum = [
 ]
 export default function TermsCondition() {
     return (
-        <div className="container">
+        <div className="container mt-4 mb-10">
             <BreadcrumbResponsive breadcrum={breadcrum} />
-            <Faq />
+            <div className="mb-5">
+                <Faq />
+            </div>
         </div>
     );
 }

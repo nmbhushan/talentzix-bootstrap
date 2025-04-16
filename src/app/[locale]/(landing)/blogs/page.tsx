@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const PropertiesListing = () => {
     return (
         <>
-            <div className="container">
+            <div className="container mt-4">
                 <Breadcrumbs breadcrum={breadcrum} />
                 
                 <div className="flex justify-between space-y-3 mt-3">
@@ -47,7 +47,7 @@ const PropertiesListing = () => {
                 </div>
                 <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-5 gap-5 mb-8">
                     {PropertyCardData.map((item, index: any) => (
-                        <div key={index} className="card">
+                        <div key={index} className="card mb-4">
                             <PropertiesCard item={item} />
                         </div>
                     ))}
